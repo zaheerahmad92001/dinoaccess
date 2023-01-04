@@ -1,0 +1,658 @@
+{
+   "code": {
+    "register": 0,
+    "label": "code",
+    "unit": "",
+    "default": 0,
+    "range": [0,999],
+    "comma": 0
+  },
+    "sollPH": {
+    "register": 1,
+    "label": "sollPH",
+    "unit": "pH",
+    "default": 720,
+    "range": [650,999],
+    "comma": 2
+  },
+  "pBerPH": {
+    "register": 2,
+    "label": "pBerPH",
+    "unit": "pH",
+    "default": 100,
+    "range": [20,300],
+    "comma": 2
+  },
+  "hystPH": {
+    "register": 3,
+    "label": "hystPH",
+    "unit": "pH",
+    "default": 10,
+    "range": [0,100],
+    "comma": 2
+  },
+  "sollRx": {
+    "register": 4,
+    "label": "sollRx",
+    "unit": "mV",
+    "default": 700,
+    "range": [350,950],
+    "comma": 0
+  },
+  "pBerRx": {
+    "register": 5,
+    "label": "pBerRx",
+    "unit": "mV",
+    "default": 100,
+    "range": [0,300],
+    "comma": 0
+  },
+  "tDosZeit": {
+    "register": 6,
+    "label": "tDosZeit",
+    "unit": "min",
+    "default": 5,
+    "range": [0,300],
+    "comma": 0
+  },
+  "messT0": {
+    "register": 7,
+    "label": "messT0",
+    "unit": "°C",
+    "default": 280,
+    "range": [1,500],
+    "comma": 1
+  },
+  "messT1": {
+    "register": 8,
+    "label": "messT1",
+    "unit": "°C",
+    "default": 280,
+    "range": [1,500],
+    "comma": 1
+  },
+  "sollTemp": {
+    "register": 9,
+    "label": "sollTemp",
+    "unit": "°C",
+    "default": 280,
+    "range": [50,400],
+    "comma": 1
+  },
+  "einschVer": {
+    "register": 10,
+    "label": "einschVer",
+    "unit": "min",
+    "default": 5,
+    "range": [0,30],
+    "comma": 0
+  },
+  "maxDosZeitR0": {
+    "register": 11,
+    "label": "maxDosZeitR0",
+    "unit": "min",
+    "default": 60,
+    "range": [0,90],
+    "comma": 0
+  },
+  "maxDosZeitR1": {
+    "register": 12,
+    "label": "maxDosZeitR1",
+    "unit": "min",
+    "default": 60,
+    "range": [0,90],
+    "comma": 0
+  },
+  "maxDosZeitR2": {
+    "register": 13,
+    "label": "maxDosZeitR2",
+    "unit": "min",
+    "default": 60,
+    "range": [0,90],
+    "comma": 0
+  },
+  "taglPumpLz": {
+    "register": 14,
+    "label": "taglPumpLz",
+    "unit": "h",
+    "default": 12,
+    "range": [1,24],
+    "comma": 0
+  },
+  "maxTagDosR0": {
+    "register": 15,
+    "label": "maxTagDosR0",
+    "unit": "L",
+    "default": 0,
+    "range": [0,300],
+    "comma": 1
+  },
+  "maxTagDosR1": {
+    "register": 16,
+    "label": "maxTagDosR1",
+    "unit": "L",
+    "default": 0,
+    "range": [0,300],
+    "comma": 1
+  },
+  "maxTagDosR2": {
+    "register": 17,
+    "label": "maxTagDosR2",
+    "unit": "L",
+    "default": 0,
+    "range": [0,300],
+    "comma": 1
+  },
+  "minFlow": {
+    "register": 18,
+    "label": "minFlow",
+    "unit": "L/h",
+    "default": 15,
+    "range": [10,50],
+    "comma": 0
+  },
+  "flowPulse": {
+    "register": 19,
+    "label": "flowPulse",
+    "unit": "p/L",
+    "default": 0,
+    "range": [0,999],
+    "comma": 0
+  },
+  "schaltFPst0": {
+    "register": 20,
+    "label": "schaltFPst0",
+    "unit": "h",
+    "default": 9,
+    "range": [0,23],
+    "comma": 0
+  },
+  "schaltFPmin0": {
+    "register": 21,
+    "label": "schaltFPmin0",
+    "unit": "min",
+    "default": 0,
+    "range": [0,59],
+    "comma": 0
+  },
+  "schaltFPwirk0": {
+    "register": 22,
+    "label": "schaltFPwirk0",
+    "unit": "min",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "schaltFPst1": {
+    "register": 25,
+    "label": "schaltFPst1",
+    "unit": "h",
+    "default": 9,
+    "range": [0,23],
+    "comma": 0
+  },
+  "schaltFPmin1": {
+    "register": 26,
+    "label": "schaltFPmin1",
+    "unit": "min",
+    "default": 0,
+    "range": [0,59],
+    "comma": 0
+  },
+  "schaltFPwirk1": {
+    "register": 27,
+    "label": "schaltFPwirk1",
+    "unit": "min",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "schaltFPst2": {
+    "register": 30,
+    "label": "schaltFPst2",
+    "unit": "h",
+    "default": 9,
+    "range": [0,23],
+    "comma": 0
+  },
+  "schaltFPmin2": {
+    "register": 31,
+    "label": "schaltFPmin2",
+    "unit": "min",
+    "default": 0,
+    "range": [0,59],
+    "comma": 0
+  },
+  "schaltFPwirk2": {
+    "register": 32,
+    "label": "schaltFPwirk2",
+    "unit": "min",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "schaltFPst3": {
+    "register": 35,
+    "label": "schaltFPst3",
+    "unit": "h",
+    "default": 9,
+    "range": [0,23],
+    "comma": 0
+  },
+  "schaltFPmin3": {
+    "register": 36,
+    "label": "schaltFPmin3",
+    "unit": "min",
+    "default": 0,
+    "range": [0,59],
+    "comma": 0
+  },
+  "schaltFPwirk3": {
+    "register": 37,
+    "label": "schaltFPwirk3",
+    "unit": "min",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "phStartCal": {
+    "register": 38,
+    "label": "phStartCal",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "startDelay": {
+    "register": 39,
+    "label": "startDelay",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "clockHour": {
+    "register": 40,
+    "label": "clockHour",
+    "unit": "h",
+    "default": 0,
+    "range": [0,23],
+    "comma": 0
+  },
+  "clockMin": {
+    "register": 41,
+    "label": "clockMin",
+    "unit": "min",
+    "default": 0,
+    "range": [0,59],
+    "comma": 0
+  },
+  "dosEnable": {
+    "register": 48,
+    "label": "dosEnable",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "fpMan": {
+    "register": 49,
+    "label": "fpMan",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "modR0": {
+    "register": 50,
+    "label": "modR0",
+    "unit": "",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "maxPulseR0": {
+    "register": 51,
+    "label": "maxPulseR0",
+    "unit": "Imp/h",
+    "default": 72,
+    "range": [1,72],
+    "comma": 0
+  },
+  "perDauerR0": {
+    "register": 52,
+    "label": "perDauerR0",
+    "unit": "s",
+    "default": 10,
+    "range": [10,60],
+    "comma": 0
+  },
+  "minImpulsDauerR0": {
+    "register": 53,
+    "label": "minImpulsDauerR0",
+    "unit": "s",
+    "default": 10,
+    "range": [5,100],
+    "comma": 1
+  },
+  "modR1": {
+    "register": 55,
+    "label": "modR1",
+    "unit": "",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "maxPulseR1": {
+    "register": 56,
+    "label": "maxPulseR1",
+    "unit": "Imp/h",
+    "default": 72,
+    "range": [1,72],
+    "comma": 0
+  },
+  "perDauerR1": {
+    "register": 57,
+    "label": "perDauerR1",
+    "unit": "s",
+    "default": 10,
+    "range": [10,60],
+    "comma": 0
+  },
+  "minImpulsDauerR1": {
+    "register": 58,
+    "label": "minImpulsDauerR1",
+    "unit": "s",
+    "default": 10,
+    "range": [5,100],
+    "comma": 1
+  },
+  "modR2": {
+    "register": 60,
+    "label": "modR2",
+    "unit": "",
+    "default": 2,
+    "range": [0,2],
+    "comma": 0
+  },
+  "maxPulseR2": {
+    "register": 61,
+    "label": "maxPulseR2",
+    "unit": "Imp/h",
+    "default": 72,
+    "range": [1,72],
+    "comma": 0
+  },
+  "perDauerR2": {
+    "register": 62,
+    "label": "perDauerR2",
+    "unit": "s",
+    "default": 10,
+    "range": [10,60],
+    "comma": 0
+  },
+  "minImpulsDauerR2": {
+    "register": 63,
+    "label": "minImpulsDauerR2",
+    "unit": "s",
+    "default": 10,
+    "range": [5,100],
+    "comma": 1
+  },
+  "poolcareSekH": {
+    "register": 64,
+    "label": "poolcareSekH",
+    "unit": "sek/h",
+    "default": 60,
+    "range": [0,360],
+    "comma": 0
+  },
+  "hystereseRedox": {
+    "register": 65,
+    "label": "hystereseRedox",
+    "unit": "mV",
+    "default": 0,
+    "range": [0,200],
+    "comma": 0
+  },
+  "messWertRx": {
+    "register": 66,
+    "label": "messWertRx",
+    "unit": "mV",
+    "default": 0,
+    "range": [0,0],
+    "comma": 0
+  },
+  "messWertpH": {
+    "register": 67,
+    "label": "messWertpH",
+    "unit": "pH",
+    "default": 0,
+    "range": [0,0],
+    "comma": 2
+  },
+  "status": {
+    "register": 68,
+    "label": "status",
+    "unit": "pH",
+    "default": 0,
+    "range": [0,0],
+    "comma": 0
+  },
+  "ip0": {
+    "register": 70,
+    "label": "ip0",
+    "unit": "",
+    "default": 0,
+    "range": [0,255],
+    "comma": 0
+  },
+  "ip1": {
+    "register": 71,
+    "label": "ip1",
+    "unit": "",
+    "default": 0,
+    "range": [0,255],
+    "comma": 0
+  },
+  "ip2": {
+    "register": 72,
+    "label": "ip2",
+    "unit": "",
+    "default": 0,
+    "range": [0,255],
+    "comma": 0
+  },
+  "ip3": {
+    "register": 73,
+    "label": "ip3",
+    "unit": "",
+    "default": 0,
+    "range": [0,255],
+    "comma": 0
+  },
+  "temp0": {
+    "register": 74,
+    "label": "temp0",
+    "unit": "°C",
+    "default": 0,
+    "range": [0,0],
+    "comma": 0
+  },
+  "temp1": {
+    "register": 75,
+    "label": "temp1",
+    "unit": "°C",
+    "default": 0,
+    "range": [0,0],
+    "comma": 0
+  },
+  "tempKorrektur0": {
+    "register": 77,
+    "label": "tempKorrektur0",
+    "unit": "°C",
+    "default": 0,
+    "range": [-10,10],
+    "comma": 0
+  },
+  "tempKorrektur1": {
+    "register": 78,
+    "label": "tempKorrektur1",
+    "unit": "°C",
+    "default": 0,
+    "range": [-10,10],
+    "comma": 0
+  },
+  "tempAnzeigeFrei": {
+    "register": 79,
+    "label": "tempAnzeigeFrei",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "freigabeChlor": {
+    "register": 80,
+    "label": "freigabeChlor",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "freigabePH": {
+    "register": 81,
+    "label": "freigabePH",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "freigabeTemp": {
+    "register": 82,
+    "label": "freigabeTemp",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "freigabePumpe": {
+    "register": 83,
+    "label": "freigabePumpe",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "regelRichtungpH": {
+    "register": 84,
+    "label": "regelRichtungpH",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "sondenSpannungPH": {
+    "register": 85,
+    "label": "sondenSpannungPH",
+    "unit": "mV",
+    "default": 0,
+    "range": [-999,999],
+    "comma": 0
+  },
+  "sondenSteilheitPH": {
+    "register": 86,
+    "label": "sondenSteilheitPH",
+    "unit": "mV/pH",
+    "default": 580,
+    "range": [0,999],
+    "comma": 1
+  },
+  "nullPunktAbweichung": {
+    "register": 87,
+    "label": "nullPunktAbweichung",
+    "unit": "mV/pH",
+    "default": 580,
+    "range": [-999,999],
+    "comma": 0
+  },
+  "maxLeitungDES": {
+    "register": 88,
+    "label": "maxLeitungDES",
+    "unit": "L/h",
+    "default": 40,
+    "range": [5,80],
+    "comma": 1
+  },
+  "maxLeitungPH": {
+    "register": 89,
+    "label": "maxLeitungPH",
+    "unit": "L/h",
+    "default": 40,
+    "range": [5,80],
+    "comma": 1
+  },
+  "betriebsart": {
+    "register": 90,
+    "label": "betriebsArt",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 0
+  },
+  "modusDES": {
+    "register": 91,
+    "label": "modusDES",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 1
+  },
+  "calCode": {
+    "register": 92,
+    "label": "calCode",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 1
+  },
+  "wirkRichtungAlarm": {
+    "register": 93,
+    "label": "wirkRichtungAlarm",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 1
+  },
+  "funktionHeizung": {
+    "register": 94,
+    "label": "funktionHeizung",
+    "unit": "",
+    "default": 0,
+    "range": [0,1],
+    "comma": 1
+  },
+  "solarTempDiff": {
+    "register": 95,
+    "label": "solarTempDiff",
+    "unit": "",
+    "default": 10,
+    "range": [5,30],
+    "comma": 0
+  },
+  "softNummer": {
+    "register": 98,
+    "label": "softNummer",
+    "unit": "",
+    "default": 10,
+    "range": [0,99],
+    "comma": 0
+  },
+  "softJahr": {
+    "register": 99,
+    "label": "softJahr",
+    "unit": "",
+    "default": 8,
+    "range": [0,99],
+    "comma": 1
+  }
+}

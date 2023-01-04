@@ -1,0 +1,490 @@
+{
+	"back": "Back",
+	"cancel": "Cancel",
+	"search": "Search",
+	"reset": "Reset",
+	"settings": {
+		"stockist": "Specialist dealer",
+		"city": "City",
+		"code": "Code",
+		"zip": "ZIP code",
+		"country": "Country",
+		"delete": "Delete system",
+		"device": "System",
+		"espfw": "WiFi version",
+		"firmware": "Firmware",
+		"firmwareerror": "There was an error checking for an update. Please check your internet connection.",
+		"firmwareupdate": "Search for update",
+		"infos": "Information",
+		"interval": "Refresh interval",
+		"intervals": {
+			"10": "10 seconds",
+			"20": "20 seconds",
+			"30": "30 seconds",
+			"45": "45 seconds",
+			"60": "1 minute"
+		},
+		"ip": "Local IP address",
+		"lastupdate": "Last update",
+		"name": "Display name",
+		"nofirmwareupdate": "Your firmware is up to date",
+		"offline": "This system is currently offline. You can therefore only edit your settings, but not interact with it.",
+		"position": "Location",
+		"schema": "Colour scheme",
+		"serial": "Serial number",
+		"signalstrength": "Signal strength",
+		"ssid": "SSID",
+		"title": "Settings",
+		"token": "Token",
+		"update": "Check for update",
+		"updates": {
+			"continue": "Install update",
+			"noupdateavailable": "No update available",
+			"updateavailable": "An update with version ${version} is available for your device. The update may take up to 10 minutes, during which time you will not be able to use your device.",
+			"updatefailed": "Update could not be installed successfully. Please try the update again."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Calibration",
+			"calibrate4": "Calibrating pH 4",
+			"calibrate7": "Calibrating pH 7",
+			"calibrated": "Calibration completed",
+			"messWertpH": "Actual pH value",
+			"sondenSpannungPH": "Probe voltage",
+			"sondenSteilheitPH": "Probe slope"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Disinfection",
+				"filter": "Filter pump",
+				"heating": "Heating",
+				"installation": "Automatic",
+				"phlower": "pH lower",
+				"phraise": "pH raise",
+				"title": "Quick access"
+			},
+			"messages": {
+				"1": "Disinfection canister is empty",
+				"10": "Daily dosing quantity exceeded",
+				"11": "Slope error",
+				"2": "pH canister is empty",
+				"3": "Lack of sample water",
+				"4": "Leak",
+				"5": "Dosing time for disinfection exceeded",
+				"6": "Dosing time for pH lower exceeded",
+				"7": "Dosing time for pH raise exceeded",
+				"8": "Temperature measurement 0 disturbed",
+				"9": "Temperature measurement 1 disturbed",
+				"empty": "Currently there are no messages.",
+				"title": "Message list"
+			}
+		},
+		"save": "Apply",
+		"saved": "The changes have been sent to your CF Control 100",
+		"setpoints": {
+			"activated": "Activated",
+			"deactivated": "Deactivated",
+			"off": "Off",
+			"on": "On",
+			"ph": {
+				"hystPH": "Hysteresis",
+				"pBerPH": "P-band",
+				"sollPH": "Setpoint pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Daily dosing time",
+				"taglPumpLz": "Daily pump running time"
+			},
+			"redox": {
+				"hystereseRedox": "Hysteresis",
+				"pBerRx": "P-band",
+				"sollRx": "Setpoint"
+			},
+			"temperature": {
+				"solarTempDiff": "Temperature diff. Solar",
+				"sollTemp": "Setpoint",
+				"tempKorrektur0": "Calibration factor",
+				"tempKorrektur1": "Calibration factor Solar"
+			},
+			"timer": {
+				"schaltFPst0": "Filtration time 1 (daily)",
+				"schaltFPst2": "Filtration time 2 (daily)"
+			},
+			"title": "Setpoints",
+			"titles": {
+				"calibration": "Calibration",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "Redox",
+				"relais": "Relays",
+				"temperature": "Temperature",
+				"timer": "Timer"
+			}
+		}
+	},
+	"continue": "Next",
+	"delete": "Delete",
+	"hello": "Hello",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Unscrew the pH electrode and wipe it dry with a clean cloth.\r\n- Immerse the pH electrode in buffer solution 7.0 and wait until the pH value does not change anymore.\r\n- Calibrate pH 7 type and wait until the pH value has reached approx. 7.00 pH.\r\n- Dry the pH electrode with a paper fleece.\r\n- Immerse the pH electrode in buffer solution 4.0 and wait until the pH value does not change anymore.\r\n- Calibrate pH 4 type and wait until the pH value has reached approx. 4.00 pH.\r\n- The calibration process is complete.",
+			"title": "Calibrating the pH electrode"
+		},
+		"delete": {
+			"description1": "Please enter the name of your system",
+			"description2": "to confirm the deletion.",
+			"title": "Delete system?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Changes",
+			"couldnotfind": "Could not find a %{type} in your network",
+			"description": "The latest firmware version available is **%{version}**. To perform the update, please make sure you are on the same network as your %{type}.",
+			"done": "The update has been uploaded to your %{type}. It will now restart and install the update. This process can take up to 10 minutes.",
+			"downloading": "Downloading update",
+			"error": "An error occurred when downloading the update",
+			"twoupdates": "There are several updates available that cannot be installed at the same time. After a successful update, check for updates again and run the next update.",
+			"start": "Perform update",
+			"title": "Firmware update available",
+			"uploading": "Upload update"
+		},
+		"firmwareupdating": {
+			"error": "The %{type} is online again, but has not been updated. Please try the update again.",
+			"message": "The %{type} is currently processing an update. It may take a few minutes until the device is online again.",
+			"ok": "Okay",
+			"title": "Update is in progress"
+		},
+		"notconnected": {
+			"continue": "Continue configuration",
+			"delete": "Delete",
+			"description": "This device has not yet connected to the cloud",
+			"title": "Device not connected"
+		},
+		"subscription": {
+			"message": "In order to change settings on your CF Control 100 you need a subscription.\r\n\r\n### %{title}\r\n**%{price} per %{month} months**\r\nAllows you to change values on all your CF Control 100s and calibrate them via the app.",
+			"yes": "Subscribe"
+		},
+		"updating": {
+			"description": "Device is being updated. This process can take up to 10 minutes.",
+			"title": "Device is being updated"
+		}
+	},
+	"notconnectedwriting": "Your settings could not be transferred because your device is not connected to our cloud. Please check your Internet connection.",
+	"okay": "Okay",
+	"pcd": {
+		"calibration": {
+			"DPD": "DPD value",
+			"calReset": "Calibration reset",
+			"calibrate": "Calibration",
+			"calibrate4": "Calibrating pH 4",
+			"calibrate7": "Calibrating pH 7",
+			"calibrateDes": "Calibration disinfection",
+			"calibratePH": "Calibration pH",
+			"calibrated": "Calibration completed",
+			"inputcurrent": "Input current",
+			"inputvoltage": "Input voltage",
+			"messWert": "Actual value",
+			"onepoint": "One-point calibration",
+			"photometer": "Photometer value",
+			"sondenSteilheit": "Probe slope",
+			"twopoint": "Two-point calibration",
+			"zeropint": "Zero point"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Disinfection",
+				"desmanual": "Manual control",
+				"deson": "Switched on",
+				"filter": "Filter pump",
+				"filtermanual": "Manual control",
+				"filteron": "Switched on",
+				"ph": "pH",
+				"phmanual": "Manual control",
+				"phon": "Switched on",
+				"title": "Quick access"
+			},
+			"faults": {
+				"dosierzeit_des": "Dosing time for disinfection exceeded",
+				"dosierzeit_phlower": "Dosing time for pH lower exceeded",
+				"dosierzeit_phraise": "Dosing time for pH raise exceeded",
+				"title": "Errors"
+			},
+			"messages": {
+				"dauerdosierung_des": "Cont. dosing disinfection in progress",
+				"dauerdosierung_ph": "Continuous dosing pH running",
+				"des_alarm_oben": "Disinfection above alarm value",
+				"des_alarm_unten": "Disinfection below alarm value",
+				"des_leer": "Disinfection canister empty",
+				"des_warn_oben": "Disinfection above warning value",
+				"des_warn_unten": "Disinfection below warning value",
+				"dosierstop": "External dosing stop",
+				"einschaltverzögerung": "Switch-on delay",
+				"empty": "Currently there are no messages.",
+				"nullpunkt": "Zero point error",
+				"ph_alarm_oben": "pH value above alarm value",
+				"ph_alarm_unten": "pH value below alarm value",
+				"ph_leer": "pH canister empty",
+				"ph_warn_oben": "pH value above warning value",
+				"ph_warn_unten": "pH value below warning value",
+				"regelgrenze_ph_oben": "Control limit pH exceeded",
+				"regelgrenze_ph_unten": "Control limit pH fallen short of",
+				"steilheit": "Slope error",
+				"temperatur_alarm_oben": "Water temperature above alarm value",
+				"temperatur_alarm_unten": "Water temperature below alarm value",
+				"temperatur_warn_oben": "Water temperature above warning value",
+				"temperatur_warn_unten": "Water temperature below warning value",
+				"title": "Message list",
+				"unterteil": "No connection to bottom part",
+				"wassermangel": "Lack of sample water"
+			}
+		},
+		"save": "Apply",
+		"saved": "The changes have been sent to your PC DYNAMICS.",
+		"setpoints": {
+			"activated": "Activated",
+			"aer": {
+				"hours": "Hour",
+				"minutes": "Minute",
+				"startmanual": "Start manually",
+				"timeperday": "Number per day"
+			},
+			"deactivated": "Deactivated",
+			"desinfection": {
+				"alarmDelay": "Alarm delay",
+				"circulationTime": "Circulation time",
+				"compensation": "Compensation",
+				"concentration": "Concentration",
+				"dosingTime": "Dosing time monitoring",
+				"finedosing": "Fine dosing",
+				"hysterese": "Hysteresis",
+				"lowerAlarm": "Lower alarm value",
+				"lowerWarn": "Lower warning value",
+				"manCompensation": "Manual compensation",
+				"manDosing": "Manual continuous dosing",
+				"options": {
+					"auto": "Auto",
+					"manual": "Manual"
+				},
+				"pRange": "P-band",
+				"poolsize": "Basin volume",
+				"pumppower": "Pump performance",
+				"resetTime": "Integral action time",
+				"setpoint": "Setpoint",
+				"titles": {
+					"title1": "Setpoints",
+					"title2": "Control",
+					"title3": "Dosing settings",
+					"title4": "Temperature compensation"
+				},
+				"upperAlarm": "Upper alarm value",
+				"upperWarn": "Upper warning value"
+			},
+			"filter": {
+				"friday": "Friday",
+				"monday": "Monday",
+				"saturday": "Saturday",
+				"sunday": "Sunday",
+				"thursday": "Thursday",
+				"timermark1": "Switch mark 1",
+				"timermark2": "Switch mark 2",
+				"tuesday": "Tuesday",
+				"wednesday": "Wednesday"
+			},
+			"temperature": {
+				"upperAlarm": "Upper alarm value",
+				"upperWarn": "Upper warning value",
+				"setpoint": "Set point",
+				"lowerWarn": "Lower warning value",
+				"lowerAlarm": "Lower alarm value",
+				"correction": "Correction",
+				"alarmdelay": "Alarm delay"
+			},
+			"solar": {
+				"diff": "Differential temperature"
+			},
+			"off": "Off",
+			"on": "On",
+			"ph": {
+				"alarmDelay": "Alarm delay",
+				"deathrange": "Deadband",
+				"dosingTime": "Dosing time monitoring",
+				"hysterese": "Hysteresis",
+				"lowerAlarm": "Lower alarm value",
+				"lowerWarn": "Lower warning value",
+				"manDosing": "Manual continuous dosing",
+				"pRange": "P-band",
+				"resetTime": "Integral action time",
+				"setpoint": "Setpoint",
+				"titles": {
+					"title1": "Setpoints",
+					"title2": "Control",
+					"title3": "Dosing settings"
+				},
+				"upperAlarm": "Upper alarm value",
+				"upperWarn": "Upper warning value"
+			},
+			"poolcare": {
+				"tDosZeit": "Daily dosing time",
+				"taglPumpLz": "Daily pump running time"
+			},
+			"redox": {
+				"hystereseRedox": "Hysteresis",
+				"pBerRx": "P-band",
+				"sollRx": "Setpoint"
+			},
+			"samplewater": {
+				"compensation": "Compensation",
+				"flow": "Flow",
+				"flowrate": "Flow rate",
+				"maxflow": "Maximum flow rate",
+				"minflow": "Minimum flow rate"
+			},
+			"time": {
+				"day": "Day",
+				"hours": "Hours",
+				"minutes": "Minutes",
+				"month": "Month",
+				"year": "Year"
+			},
+			"titles": {
+				"brom": "Bromine",
+				"calibration": "Calibration",
+				"chlordioxid": "Chlorine dioxide",
+				"datetime": "Date and time",
+				"filter": "Filtering times",
+				"flow": "Flow",
+				"freechlorine": "Free chlorine",
+				"organicchlorine": "Organic chlorine",
+				"ozon": "Ozone",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare time-controlled",
+				"redox": "Redox",
+				"relais": "Relays",
+				"samplewater": "Sample water",
+				"temperature": "Temperature",
+				"timer": "Timer",
+				"aer": "AER",
+				"solar": "Solar"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Mr.",
+		"ms": "Mrs."
+	},
+	"save": "Save",
+	"types": {
+		"CF100": "CF Control 100",
+		"PCD": "PC DYNAMICS"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "An error occurred when resetting your password. Please check your Internet connection.",
+				"success": "An email with a link to reset your password has been sent to the email address you provided.",
+				"title": "Password lost",
+				"wrongemail": "No account could be found with this e-mail address."
+			},
+			"login": {
+				"email": "E-mail address",
+				"error": "No account could be found with the specified user data.",
+				"forgotpassword": "Password lost",
+				"noaccount": "No account yet?",
+				"password": "Password",
+				"pleaselogin": "Please log in to continue",
+				"welcome": "Welcome,"
+			},
+			"register": {
+				"back": "Back to login",
+				"emailerror": "An error occurred while checking the e-mail address. Please check your Internet connection.",
+				"error": "There was a problem completing the registration. Please check your Internet connection.",
+				"firstname": "First Name",
+				"lastname": "Last name",
+				"passwordlength": "Your password must contain at least 8 characters.",
+				"privacy": "I agree to the privacy policy. Deleting my account will revoke this.",
+				"privacylink": "Show privacy policy",
+				"register": "Register",
+				"registration": "Registration",
+				"repeatpassword": "Repeat password",
+				"salutation": "Title"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "City",
+				"country": "Country",
+				"name": "System name",
+				"title": "Configure device",
+				"namehint": "",
+				"typehint": "Please choose the type of device you want to register.",
+				"zip": "ZIP code"
+			},
+			"passphrase": "Password",
+			"ssid": "SSID",
+			"step": "Step %{step}:",
+			"wificredentials": {
+				"help1": "For your %{type} to be able to communicate with your app, it must be located in a network connected to the Internet. ",
+				"help2": "Please enter the access data for the 2.4Ghz WiFi network you would like to use. This network must support DHCP.",
+				"passphrasehint": "Your private WiFi must be secured with a password so that the device can communicate securely with it.",
+				"title": "Configure WiFi"
+			},
+			"wifilist": {
+				"configured": "Device configured",
+				"configuring": "Configuring...",
+				"connected": "Connected",
+				"connectingWithWebsocket": "Connecting to cloud",
+				"connectionFailed": "Connection not successful",
+				"currentwifi": "Current WiFi: %{ssid}",
+				"devicetimeout": "The device has not sent any data in the last minute.",
+				"failed": "Configuration failed",
+				"finished": "Completed",
+				"help1": "Please go to your system settings and search for the WiFi network of your %{type}.",
+				"help2": "The name of the network starts with",
+				"help3": "Once you have connected to the network, you can return to the app to continue with the setup.",
+				"permission": {
+					"message": "We need your confirmation to be able to see your current WiFi",
+					"title": "WiFi network"
+				},
+				"title": "Connection setup",
+				"trying": "Trying to\r\nconnect...",
+				"waiting": "Waiting...",
+				"waitingForMessage": "Waiting for first data",
+				"websockettimeout": "Please make sure that your Internet connection is available again to continue with the configuration.",
+				"wrongtype": "This device is not a %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Change password",
+				"currentpassword": "Current password",
+				"email": "E-mail",
+				"emailexists": "The email address you entered already belongs to another account.",
+				"emailissue": "here was a problem saving your data. Please check your Internet connection and try again.",
+				"emaillong": "E-mail address",
+				"firstname": "First Name",
+				"language": "Language",
+				"lastname": "Last name",
+				"logout": "Log out",
+				"misc": "Miscellaneous",
+				"newpassword": "New password",
+				"password": "Password",
+				"passwordchanged": "Your password has been successfully changed.",
+				"passwordissue": "There was a problem changing your password. Please check your Internet connection and try again.",
+				"passwordnotmatching": "The password does not match the password stored in your account.\r\n\r\nPlease try again.",
+				"privacy": "Privacy policy & Terms of Use",
+				"profile": "Profile",
+				"repeatnewpassword": "Repeat new password",
+				"salutation": "Title",
+				"subscription": "Subscription",
+				"subscriptionend": "Expires on ${date}",
+				"subscriptioninactive": "Inactive",
+				"title": "Settings"
+			},
+			"overview": {
+				"noinstallations": "You have not stored any devices yet. Please click on the button below to add a device.",
+				"yourinstallations": "Your systems are found here."
+			}
+		}
+	}
+}

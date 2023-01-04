@@ -1,0 +1,4 @@
+export default {
+    STORE_JWT: 'STORE_JWT',
+    STORE_USERDATA: 'STORE_USERDATA'
+}

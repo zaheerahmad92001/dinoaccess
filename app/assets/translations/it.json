@@ -1,0 +1,490 @@
+{
+	"back": "Indietro",
+	"cancel": "Annulla",
+	"search": "Trova",
+	"reset": "Ripristina",
+	"settings": {
+		"stockist": "Rivenditore",
+		"city": "Città",
+		"code": "Codice:",
+		"zip": "CAP",
+		"country": "Paese",
+		"delete": "Cancella impianto",
+		"device": "Impianto",
+		"espfw": "Versione WLAN",
+		"firmware": "Firmware",
+		"firmwareerror": "Durante la ricerca di un aggiornamento si è verificato un errore. Verificare la connessione Internet.",
+		"firmwareupdate": "Cerca aggiornamenti",
+		"infos": "Informazioni",
+		"interval": "Frequenza di aggiornamento",
+		"intervals": {
+			"10": "10 secondi",
+			"20": "20 secondi",
+			"30": "30 secondi",
+			"45": "45 secondi",
+			"60": "1 minuto"
+		},
+		"ip": "Indirizzo IP locale",
+		"lastupdate": "Ultimo aggiornamento",
+		"name": "Nome visualizzato",
+		"nofirmwareupdate": "Il firmware è aggiornato",
+		"offline": "Questo impianto è offline. In questo momento è possibile solo modificare le impostazioni, ma non interagire con l'impianto.",
+		"position": "Ubicazione",
+		"schema": "Schema colori",
+		"serial": "Numero di serie",
+		"signalstrength": "Intensità del segnale",
+		"ssid": "SSID",
+		"title": "Impostazioni",
+		"token": "Token",
+		"update": "Verifica aggiornamento",
+		"updates": {
+			"continue": "Installa aggiornamento",
+			"noupdateavailable": "Nessun aggiornamento disponibile",
+			"updateavailable": "Per questo apparecchio è disponibile un aggiornamento versione ${version}. L'aggiornamento può durare fino a 10 minuti di tempo, durante i quali non è possibile utilizzare il dispositivo.",
+			"updatefailed": "Non è stato possibile effettuare l'aggiornamento. Ripeti l'installazione dell'aggiornamento."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Calibrare",
+			"calibrate4": "Calibrare pH 4 ",
+			"calibrate7": "Calibrare pH 7 ",
+			"calibrated": "Calibratura effettuata",
+			"messWertpH": "Valore pH eff.",
+			"sondenSpannungPH": "Tensione sonda",
+			"sondenSteilheitPH": "Pendenza sonda"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Disinfezione",
+				"filter": "Pompa filtrante",
+				"heating": "Riscaldamento",
+				"installation": "Automatico",
+				"phlower": "Abbassa pH",
+				"phraise": "Aumenta pH",
+				"title": "Accesso rapido"
+			},
+			"messages": {
+				"1": "Fusto disinfezione vuoto",
+				"10": "Quantità dosaggio giornaliera superata",
+				"11": "Errore pendenza",
+				"2": "Fusto pH vuoto",
+				"3": "Mancanza acqua per misurazioni",
+				"4": "Perdita ",
+				"5": "Tempo dosaggio disinfez. superato",
+				"6": "Tempo dosaggio abbassa pH super.",
+				"7": "Tempo dosaggio aumenta pH super.",
+				"8": "Anomalia misurazione temperatura 0",
+				"9": "Anomalia misurazione temperatura 1",
+				"empty": "Al momento nessun messaggio.",
+				"title": "Segnalazioni"
+			}
+		},
+		"save": "Rileva",
+		"saved": "Le modifiche sono state trasmesse al CF Controll 100.",
+		"setpoints": {
+			"activated": "Attivato",
+			"deactivated": "Disattivato",
+			"off": "Off",
+			"on": "On",
+			"ph": {
+				"hystPH": "\tIsteresi",
+				"pBerPH": "Banda proporzionale",
+				"sollPH": "Valore teorico pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Tempo di dosaggio giornaliero",
+				"taglPumpLz": "Tempo funzionamento pompa giornaliero"
+			},
+			"redox": {
+				"hystereseRedox": "\tIsteresi",
+				"pBerRx": "Banda proporzionale",
+				"sollRx": "Valore teorico"
+			},
+			"temperature": {
+				"solarTempDiff": "Temperatura diff. Impianto solare ",
+				"sollTemp": "Valore teorico",
+				"tempKorrektur0": "Fattore di calibratura",
+				"tempKorrektur1": "Fattore di calibratura solare"
+			},
+			"timer": {
+				"schaltFPst0": "Tempo filtrazione 1 (giornaliero)",
+				"schaltFPst2": "Tempo filtrazione 2 (giornaliero)"
+			},
+			"title": "Valori teorici",
+			"titles": {
+				"calibration": "Calibratura",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": " Redox",
+				"relais": "Relè",
+				"temperature": "Temperatura",
+				"timer": "Timer"
+			}
+		}
+	},
+	"continue": "Avanti",
+	"delete": "Cancella",
+	"hello": "Salve",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Svitare l'elettrodo pH e asciugare con un panno pulito.\r\n- Immergere l'elettrodo per il pH nella soluzione tampone da 7,0 e attendere fino a quando il valore pH non cambia più.\r\n- Digitare calibratura pH 7 e attendere che il valore pH abbia raggiunto circa 7,00 pH.\r\nAsciugare l'elettrodo pH con un panno di tessuto non tessuto.\r\n- Immergere l'elettrodo per il pH nella soluzione tampone da 4,0 e attendere fino a quando il valore pH non cambia più.\r\n- Digitare calibratura pH 4 e attendere che il valore pH abbia raggiunto circa 4,00 pH.\r\n- La calibratura è così terminata",
+			"title": "Calibratura elettrodo pH"
+		},
+		"delete": {
+			"description1": "Inserisci il nome dell'impianto",
+			"description2": "per confermare la cancellazione.",
+			"title": "Cancella impianto?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Modifiche",
+			"couldnotfind": "Impossibile trovare %{type} nella tua rete",
+			"description": "L'ultima versione firmware disponibile è **%{version}**. Per eseguire l'aggiornamento, controlla di essere nella stessa rete di %{type}.",
+			"done": "L'aggiornamento è stato caricato su %{type}. Verrà ora avviato e l'aggiornamento sarà installato. Questa operazione può durare fino a 10 minuti.",
+			"downloading": "Download dell'aggiornamento in corso",
+			"error": "Si è verificato un errore durante il download dell'aggiornamento",
+			"twoupdates": "Sono disponibili diversi aggiornamenti che non possono essere installati contemporaneamente. Dopo aver eseguito l'aggiornamento, ripetere la ricerca di nuovi aggiornamenti per eseguire i successivi.",
+			"start": "Esegui l'aggiornamento",
+			"title": "Update del firmware disponibile",
+			"uploading": "Carica aggiornamento"
+		},
+		"firmwareupdating": {
+			"error": "%{type} è nuovamente online, ma non è stato aggiornato. Riprova con l'aggiornamento.",
+			"message": "%{type} sta elaborando un aggiornamento. Il dispositivo può tornare online tra qualche minuto.",
+			"ok": "Okay",
+			"title": "Aggiornamento in corso"
+		},
+		"notconnected": {
+			"continue": "Prosegui la configurazione",
+			"delete": "Cancella",
+			"description": "Questo dispositivo non è ancora collegato con il cloud.",
+			"title": "Dispositivo non collegato"
+		},
+		"subscription": {
+			"message": "Per effettuare le impostazioni sul CF Control 100 è necessario un abbonamento.\r\n\r\n### %{title}\r\n**%{price} per %{month} mesi**\r\nConsente di impostare i valori di tutti i CF Control 100 e di calibrarli nell'app.",
+			"yes": "Sottoscrivi abbonamento"
+		},
+		"updating": {
+			"description": "Questo dispositivo è stato appena aggiornato. Questa operazione può durare fino a 10 minuti.",
+			"title": "Aggiornamento del dispositivo in corso"
+		}
+	},
+	"notconnectedwriting": "Non è stato possibile trasmettere le impostazioni perché il dispositivo non è collegato con il nostro cloud. Verifica la connessione Internet.",
+	"okay": "Okay",
+	"pcd": {
+		"calibration": {
+			"DPD": "Valore DPD",
+			"calReset": "Reset calibratura",
+			"calibrate": "Calibrare",
+			"calibrate4": "Calibrare pH 4 ",
+			"calibrate7": "Calibrare pH 7 ",
+			"calibrateDes": "Calibratura disinfezione",
+			"calibratePH": "Calibratura\tpH ",
+			"calibrated": "Calibratura effettuata",
+			"inputcurrent": "Corrente d'ingresso",
+			"inputvoltage": "Tensione d'ingresso",
+			"messWert": "Valore eff.",
+			"onepoint": "Calibratura a un punto",
+			"photometer": "Valore fotometro",
+			"sondenSteilheit": "Pendenza sonda",
+			"twopoint": "Calibratura a due punti",
+			"zeropint": "Punto zero"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Disinfezione",
+				"desmanual": "Comando manuale",
+				"deson": "Attivato",
+				"filter": "Pompa filtrante",
+				"filtermanual": "Comando manuale",
+				"filteron": "Attivato",
+				"ph": "pH",
+				"phmanual": "Comando manuale",
+				"phon": "Attivato",
+				"title": "Accesso rapido"
+			},
+			"faults": {
+				"dosierzeit_des": "Tempo dosaggio disinfez. superato",
+				"dosierzeit_phlower": "Tempo dosaggio abbassa pH superato",
+				"dosierzeit_phraise": "Tempo dosaggio aumenta pH superato",
+				"title": "Anomalie"
+			},
+			"messages": {
+				"dauerdosierung_des": "Dosaggio continuo disinfezione",
+				"dauerdosierung_ph": "Dosaggio continuo pH",
+				"des_alarm_oben": "Disinfezione",
+				"des_alarm_unten": "Disinfezione sotto valore allarme",
+				"des_leer": "Disinfezione fusto vuoto",
+				"des_warn_oben": "Disinfezione sopra valore allarme",
+				"des_warn_unten": "Disinfezione sotto valore allarme",
+				"dosierstop": "Stop dosaggio esterno",
+				"einschaltverzögerung": "Ritardo d'inserzione",
+				"empty": "Al momento nessun messaggio.",
+				"nullpunkt": "Errore punto zero",
+				"ph_alarm_oben": "pH sopra valore allarme",
+				"ph_alarm_unten": "pH sotto valore allarme",
+				"ph_leer": "pH fusto vuoto",
+				"ph_warn_oben": "ph sopra valore avvertimento",
+				"ph_warn_unten": "pH sotto valore avvertimento",
+				"regelgrenze_ph_oben": "Limite regolazione pH superato",
+				"regelgrenze_ph_unten": "Limite regolazione pH non raggiunto",
+				"steilheit": "Errore pendenza",
+				"temperatur_alarm_oben": "Temperatura acqua sopra valore allarme",
+				"temperatur_alarm_unten": "Temperatura acqua sotto valore allarme",
+				"temperatur_warn_oben": "Temperatura acqua sopra valore avvertimento",
+				"temperatur_warn_unten": "Temperatura acqua sotto valore avvertimento",
+				"title": "Segnalazioni",
+				"unterteil": "Nessun collegamento parte inf.",
+				"wassermangel": "Mancanza acqua per misurazioni"
+			}
+		},
+		"save": "Rileva",
+		"saved": "La modifica è stata trasmessa a PC Dynamics.",
+		"setpoints": {
+			"activated": "Attivato",
+			"aer": {
+				"hours": "Ora",
+				"minutes": "Minuto",
+				"startmanual": "Avvio manuale",
+				"timeperday": "Numero al giorno"
+			},
+			"deactivated": "Disattivato",
+			"desinfection": {
+				"alarmDelay": "Ritardo allarme",
+				"circulationTime": "Tempo di ricircolo",
+				"compensation": "Compensazione",
+				"concentration": "Concentrazione",
+				"dosingTime": "Monitoraggio tempo dosaggio",
+				"finedosing": "Dosaggio di precisione",
+				"hysterese": "\tIsteresi",
+				"lowerAlarm": "Valore allarme inferiore",
+				"lowerWarn": "Valore avvertimento inferiore",
+				"manCompensation": "Compensazione manuale",
+				"manDosing": "Dosaggio continuo manuale",
+				"options": {
+					"auto": "Auto",
+					"manual": "Manuale "
+				},
+				"pRange": "Banda proporzionale",
+				"poolsize": "Volume vasca:",
+				"pumppower": "Portata pompa",
+				"resetTime": "Tempo azione integrale",
+				"setpoint": "Valore teorico",
+				"titles": {
+					"title1": "Valori teorici",
+					"title2": "Regolazione",
+					"title3": "Impostazioni dosaggio",
+					"title4": "Compensazione temperatura"
+				},
+				"upperAlarm": "Valore allarme superiore",
+				"upperWarn": "Valore avvertimento superiore"
+			},
+			"filter": {
+				"friday": "Venerdì",
+				"monday": "Lunedì",
+				"saturday": "Sabato",
+				"sunday": "Domenica",
+				"thursday": "Giovedì",
+				"timermark1": "Riferimento 1",
+				"timermark2": "Riferimento 2",
+				"tuesday": "Martedì",
+				"wednesday": "Mercoledì"
+			},
+			"temperature": {
+				"upperAlarm": "Valore allarme superiore",
+				"upperWarn": "Valore avvertimento superiore",
+				"setpoint": "Valore teorico",
+				"lowerWarn": "Valore avvertimento inferiore",
+				"lowerAlarm": "Valore allarme inferiore",
+				"correction": "Correzione",
+				"alarmdelay": "Ritardo allarme"
+			},
+			"solar": {
+				"diff": "Temperatura differenza"
+			},
+			"off": "Off",
+			"on": "On",
+			"ph": {
+				"alarmDelay": "Ritardo allarme",
+				"deathrange": "Banda morta",
+				"dosingTime": "Monitoraggio tempo dosaggio",
+				"hysterese": "\tIsteresi",
+				"lowerAlarm": "Valore allarme inferiore",
+				"lowerWarn": "Valore avvertimento inferiore",
+				"manDosing": "Dosaggio continuo manuale",
+				"pRange": "Banda proporzionale",
+				"resetTime": "Tempo azione integrale",
+				"setpoint": "Valore teorico",
+				"titles": {
+					"title1": "Valori teorici",
+					"title2": "Regolazione",
+					"title3": "Impostazioni dosaggio"
+				},
+				"upperAlarm": "Valore allarme superiore",
+				"upperWarn": "Valore avvertimento superiore"
+			},
+			"poolcare": {
+				"tDosZeit": "Tempo di dosaggio giornaliero",
+				"taglPumpLz": "Tempo funzionamento pompa giornaliero"
+			},
+			"redox": {
+				"hystereseRedox": "\tIsteresi",
+				"pBerRx": "Banda proporzionale",
+				"sollRx": "Valore teorico"
+			},
+			"samplewater": {
+				"compensation": "Compensazione",
+				"flow": "Portata",
+				"flowrate": "Impulsi/litro",
+				"maxflow": "Portata massima",
+				"minflow": "Portata minima"
+			},
+			"time": {
+				"day": "Giorno",
+				"hours": "Ore",
+				"minutes": "Minuti",
+				"month": "Mese",
+				"year": "Anno"
+			},
+			"titles": {
+				"brom": "Bromo",
+				"calibration": "Calibratura",
+				"chlordioxid": "Diossido di cloro",
+				"datetime": "Data e ora",
+				"filter": "Tempi filtro",
+				"flow": "Portata",
+				"freechlorine": "Cloro libero",
+				"organicchlorine": "Cloro organico",
+				"ozon": "Ozono",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare temporizzato",
+				"redox": " Redox",
+				"relais": "Relè",
+				"samplewater": "Acqua per le misurazioni",
+				"temperature": "Temperatura",
+				"timer": "Timer",
+				"aer": "AER",
+				"solar": "Impianto solare "
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Signor",
+		"ms": "Signora"
+	},
+	"save": "Salva",
+	"types": {
+		"CF100": " CF Control 100",
+		"PCD": "PC Dynamics"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Durante il ripristino della password si è verificato un errore. Verifica la connessione Internet.",
+				"success": "Un'e-mail con un link per il ripristino della password è stata inviata all'indirizzo e-mail indicato.",
+				"title": "Password dimenticata",
+				"wrongemail": "Non è stato trovato alcun account con questo indirizzo e-mail."
+			},
+			"login": {
+				"email": "Indirizzo e-mail",
+				"error": "Non è stato trovato alcun account con i dati utente indicati.",
+				"forgotpassword": "Password dimenticata",
+				"noaccount": "Non hai un account?",
+				"password": "Password",
+				"pleaselogin": "Per proseguire effettua l'accesso",
+				"welcome": "Benvenuto/a"
+			},
+			"register": {
+				"back": "Torna al login",
+				"emailerror": "Durante la verifica dell'indirizzo e-mail si è verificato un errore. Verifica la connessione Internet.",
+				"error": "Durante la conclusione della registrazione si è verificato un problema. Verifica la connessione Internet.",
+				"firstname": "Nome",
+				"lastname": "Cognome",
+				"passwordlength": "La password deve avere almeno 8 caratteri.",
+				"privacy": "Acconsento alle condizioni sulla protezione dei dati. La revoca viene effettuata cancellando l'account.",
+				"privacylink": "Visualizza condizioni sulla protezione dei dati",
+				"register": "Registra",
+				"registration": "Registrazione",
+				"repeatpassword": "Ripeti la password",
+				"salutation": "Appellativo"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Città",
+				"country": "Paese",
+				"name": "Denominazione",
+				"title": "Configura dispositivo",
+				"namehint": "",
+				"typehint": "Seleziona il tipo di impianto.",
+				"zip": "CAP"
+			},
+			"passphrase": "Password",
+			"ssid": "SSID",
+			"step": "Passaggio %{step}:",
+			"wificredentials": {
+				"help1": "Per poter comunicare con l'app, %{type} deve essere in una rete connessa con Internet. ",
+				"help2": "Inserisci i dati di accesso per la rete WLAN 2,4Ghz che desideri utilizzare. La rete deve supportare DHCP.",
+				"passphrasehint": "La rete WLAN privata deve essere protetta da password affinché il dispositivo possa comunicare in sicurezza.",
+				"title": "Configura WLAN"
+			},
+			"wifilist": {
+				"configured": "Dispositivo configurato",
+				"configuring": "Configurazione in corso...",
+				"connected": "Collegato",
+				"connectingWithWebsocket": "Collega con il cloud",
+				"connectionFailed": "Collegamento non riuscito",
+				"currentwifi": "WLAN attuale: %{ssid}",
+				"devicetimeout": "Nell'ultimo minuto il dispositivo non ha inviato dati.",
+				"failed": "Configurazione non riuscita",
+				"finished": "Terminata",
+				"help1": "Vai alle impostazioni di sistema e cerca la rete WLAN del tuo %{type}.",
+				"help2": "Il nome della rete inizia con",
+				"help3": "Una volta effettuata la connessione alla rete, potrai tornare all'App per proseguire le impostazioni.",
+				"permission": {
+					"message": "Per poter vedere la WLAN corrente abbiamo bisogno della tua conferma",
+					"title": "Rete WLAN"
+				},
+				"title": "Connessione",
+				"trying": "Tentativo di\r\nconnessione ...",
+				"waiting": "In attesa ...",
+				"waitingForMessage": "In attesa dei primi dati",
+				"websockettimeout": "Verifica di avere una connessione Internet per poter proseguire la configurazione.",
+				"wrongtype": "Questo dispositivo non è un %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Modifica password",
+				"currentpassword": "Password attuale",
+				"email": "E-mail",
+				"emailexists": "L'indirizzo e-mail indicato è già associato a un altro account.",
+				"emailissue": "Durante la memorizzazione dei dati si è verificato un problema. Verifica di avere una connessione Internet e riprova.",
+				"emaillong": "Indirizzo e-mail",
+				"firstname": "Nome",
+				"language": "Lingua",
+				"lastname": "Cognome",
+				"logout": "Esci",
+				"misc": "Varie",
+				"newpassword": "Nuova password",
+				"password": "Password",
+				"passwordchanged": "La password è stata modificata.",
+				"passwordissue": "Durante la modifica della password si è verificato un problema. Verifica di avere una connessione Internet e riprova.",
+				"passwordnotmatching": "La password indicata non corrisponde alla password associata al tuo account.\r\n\r\nRiprova.",
+				"privacy": "Protezione dei dati e condizioni di utilizzo",
+				"profile": "Profilo",
+				"repeatnewpassword": "Ripeti nuova password",
+				"salutation": "Appellativo",
+				"subscription": "Abbonamento",
+				"subscriptionend": "In corso dal %{date}",
+				"subscriptioninactive": "Inattivo",
+				"title": "Impostazioni"
+			},
+			"overview": {
+				"noinstallations": "Al momento non è stato memorizzato alcun dispositivo. Fare clic sul pulsante sottostante per aggiungere un dispositivo.",
+				"yourinstallations": "questi sono i tuoi impianti."
+			}
+		}
+	}
+}

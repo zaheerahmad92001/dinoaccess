@@ -1,0 +1,490 @@
+{
+	"back": "Terug",
+	"cancel": "Annuleren",
+	"search": "Zoeken",
+	"reset": "Reset",
+	"settings": {
+		"stockist": "Vakhandel",
+		"city": "Woonplaats",
+		"code": "Code",
+		"zip": "Postcode",
+		"country": "Land",
+		"delete": "Bijlage wissen",
+		"device": "Bijlage",
+		"espfw": "WLAN versie",
+		"firmware": "Firmware",
+		"firmwareerror": "Er heeft zich een probleem voorgedaan tijdens het zoeken naar updates. Controleer uw internet connectie a.u.b..",
+		"firmwareupdate": "Naar updates zoeken",
+		"infos": "Informatie",
+		"interval": "Update interval",
+		"intervals": {
+			"10": "10 seconden",
+			"20": "20 seconden",
+			"30": "30 seconden",
+			"45": "45 seconden",
+			"60": "1 minuut"
+		},
+		"ip": "Lokaal IP-adres",
+		"lastupdate": "Laatste update",
+		"name": "Naam weergave",
+		"nofirmwareupdate": "Uw apparaat heeft de meest recente firmware",
+		"offline": "Deze installatie is momenteel offline. U kunt uw instellingen wel bewerken maar, het installatie niet via internet bereiken.",
+		"position": "Locatie",
+		"schema": "Kleurenschema",
+		"serial": "Serienummer",
+		"signalstrength": "Signaalsterkte",
+		"ssid": "SSID",
+		"title": "Instellingen",
+		"token": "Token",
+		"update": "Controleren op updates",
+		"updates": {
+			"continue": "Update installeren",
+			"noupdateavailable": "Keen update beschikbaar",
+			"updateavailable": "Er is een update met versie ${version} beschikbaar voor uw apparaat. De update kan tot 10 minuten duren, u kunt het apparaat ondertussen niet gebruiken.",
+			"updatefailed": "Helaas, de update kon niet succesvol geïnstalleerd worden. Verzoekt u het a.u.b. opnieuw."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Kalibreren",
+			"calibrate4": "pH 4 kalibreren",
+			"calibrate7": "pH 7 kalibreren",
+			"calibrated": "Kalibratie uitgevoerd",
+			"messWertpH": "Werkelijke waarde pH",
+			"sondenSpannungPH": "Sonde spanning",
+			"sondenSteilheitPH": "Sonde steilheid"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Desinfectie",
+				"filter": "Filterpomp",
+				"heating": "Verwarming",
+				"installation": "Automatisch",
+				"phlower": "pH verlagen",
+				"phraise": "ph verhogen",
+				"title": "Quicklaunch"
+			},
+			"messages": {
+				"1": "De opslag van het desinfectiemiddel is leeg",
+				"10": "Dagelijkse doseerhoeveelheid is overschreden",
+				"11": "Steilheidsfout",
+				"2": "De opslag van pH verlagen is leeg",
+				"3": "Meetwater storing",
+				"4": "Lekkage",
+				"5": "Doseertijd desinfectiemiddel overschreden",
+				"6": "Doseertijd pH verlagen overschreden",
+				"7": "Doseertijd pH verhogen overschreden",
+				"8": "Temperatuurmeting 0 verstoord",
+				"9": "Temperatuurmeting 1 verstoord",
+				"empty": "Momenteel zijn er geen meldingen",
+				"title": "Lijst met meldingen"
+			}
+		},
+		"save": "Opslaan",
+		"saved": "De veranderingen worden aan uw CF Control 100 overdragen.",
+		"setpoints": {
+			"activated": "Geactiveerd",
+			"deactivated": "Gedeactiveerd",
+			"off": "Uit",
+			"on": "Aan",
+			"ph": {
+				"hystPH": "Hysterese",
+				"pBerPH": "P-bereik",
+				"sollPH": "Gewenste waarde pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Dagelijkse doseertijd",
+				"taglPumpLz": "Dagelijkse filterpomp looptijd"
+			},
+			"redox": {
+				"hystereseRedox": "Hysterese",
+				"pBerRx": "P-bereik",
+				"sollRx": "Gewenste waarde"
+			},
+			"temperature": {
+				"solarTempDiff": "Temperatuurverschil Solar",
+				"sollTemp": "Gewenste waarde",
+				"tempKorrektur0": "Kalibratiefactor",
+				"tempKorrektur1": "Kalibratiefactor solar"
+			},
+			"timer": {
+				"schaltFPst0": "Filtertijd 1 (dagelijks)",
+				"schaltFPst2": "Filtertijd 2 (dagelijks)"
+			},
+			"title": "Gewenste waarde",
+			"titles": {
+				"calibration": "Kalibratie",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "Redox",
+				"relais": "Relais",
+				"temperature": "Temperatuur",
+				"timer": "Timer"
+			}
+		}
+	},
+	"continue": "Verder",
+	"delete": "Wissen",
+	"hello": "Hallo",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Schroef de pH elektrode uit de meetcel en droog deze af met een zuivere microvezel doek.\r\n- Dip de pH elektrode in de buffervloeistof 7,00 en wacht zolang totdat de pH waarde op het scherm tot stilstand is gekomen.\r\n- Druk op pH 7 kalibreren en wacht totdat de pH waarde ongeveer de 7,00 bereikt heeft.\r\n- pH elektrode met een droge microvezel doek afdrogen.\r\n- Dip de pH elektrode in de buffervloeistof 4,0 en wacht zolang totdat de pH waarde op het scherm tot stilstand is gekomen.\r\n- Druk op pH 4 kalibreren en wacht totdat de pH waarde ongeveer de 4,00 bereikt heeft.\r\n- De calibratieproces is hiermee afgesloten.",
+			"title": "Kalibreren van de pH-elektrode"
+		},
+		"delete": {
+			"description1": "Voer a.u.b. de naam van uw apparaat",
+			"description2": "in, om het wissen te bevestigen.",
+			"title": "Apparaat wissen?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Veranderingen",
+			"couldnotfind": "Kon geen %{type} in uw netwerk vinden",
+			"description": "De nieuwste beschikbare firmware-versie is **%{versie}**. Om de update uit te voeren, moet u er zeker van zijn dat u zich in hetzelfde netwerk als uw %{type}.",
+			"done": "De update werd door uw %{type} gedownload. Deze zal overnieuw opstarten en de software installeren. Dit proces kan tot circa 10 minuten duren.",
+			"downloading": "Update wordt gedownload",
+			"error": "Er heeft zich een fout voorgedaan bij het downloaden van de update",
+			"twoupdates": "Er zijn meerdere updates beschikbaar, die niet tegelijkertijd kunnen worden geïnstalleerd. Zoek na een uitgevoerde update nogmaals naar updates, om deze ook uit te voeren.",
+			"start": "Update installeren",
+			"title": "irmware-update beschikbaar",
+			"uploading": "Update wordt geupload"
+		},
+		"firmwareupdating": {
+			"error": "De %{type} is weer online, werd echter niet geactualiseerd. Probeer de update a.u.b. opnieuw uit te voeren.",
+			"message": "De %{type} verwerkt momenteel een update. Het kan enkele minuten duren voordat het apparaat weer online is.",
+			"ok": "Okay",
+			"title": "Update wordt uitgevoerd"
+		},
+		"notconnected": {
+			"continue": "Configuratie voortzetten",
+			"delete": "Wissen",
+			"description": "Dit apparaat heeft zich op dit moment nog niet met de cloud verbonden.",
+			"title": "Apparaat is niet verbonden"
+		},
+		"subscription": {
+			"message": "Om de instellingen van uw CF Control 100 te kunnen gebruiken, heeft u een abonnement nodig.\r\n### %{title}\r\n**%{price} per %{month} Maand**\r\nBiedt u toegang tot alle waarden van uw CF Control 100 en deze via de app te wijzigen en kalibreren.",
+			"yes": "Abonneren"
+		},
+		"updating": {
+			"description": "Dit apparaat wordt op dit moment geactualiseerd. Dit proces kan tot circa 10 minuten duren.",
+			"title": "Apparaat werd geactualiseerd"
+		}
+	},
+	"notconnectedwriting": "Uw instellingen konden niet geladen worden omdat uw apparaat niet met de cloud is verbonden. Controleer a.u.b. uw internetverbinding.",
+	"okay": "Okay",
+	"pcd": {
+		"calibration": {
+			"DPD": "DPD-waarde",
+			"calReset": "Kalibratie reset",
+			"calibrate": "Kalibreren",
+			"calibrate4": "pH 4 kalibreren",
+			"calibrate7": "pH 7 kalibreren",
+			"calibrateDes": "Kalibratie desinfectie",
+			"calibratePH": "Kalibratie pH",
+			"calibrated": "Kalibratie uitgevoerd",
+			"inputcurrent": "Ingangsstroom",
+			"inputvoltage": "Ingangsspanning",
+			"messWert": "Werkelijke waarde",
+			"onepoint": "1-punts kalibratie",
+			"photometer": "Fotometrische waarde",
+			"sondenSteilheit": "Sonde steilheid",
+			"twopoint": "2-punts kalibratie",
+			"zeropint": "Nulpunt"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Desinfectie",
+				"desmanual": "Handmatige sturing",
+				"deson": "Ingeschakeld",
+				"filter": "Filterpomp",
+				"filtermanual": "Handmatige sturing",
+				"filteron": "Ingeschakeld",
+				"ph": "pH",
+				"phmanual": "Handmatige sturing",
+				"phon": "Ingeschakeld",
+				"title": "Quicklaunch"
+			},
+			"faults": {
+				"dosierzeit_des": "Doseertijd desinfectiemiddel overschreden",
+				"dosierzeit_phlower": "Doseertijd pH-verlagen overschreden",
+				"dosierzeit_phraise": "Doseertijd pH-verhogen overschreden",
+				"title": "Storingen"
+			},
+			"messages": {
+				"dauerdosierung_des": "Continue dosering desinfectie loopt",
+				"dauerdosierung_ph": "Continue dosering pH loopt",
+				"des_alarm_oben": "Desinfectiewaarde boven alarmwaarde",
+				"des_alarm_unten": "Desinfectiewaarde onder alarmwaarde",
+				"des_leer": "Desinfectie opslag leeg",
+				"des_warn_oben": "Desinfectiewaarde boven waarschuwingswaarde",
+				"des_warn_unten": "Desinfectiewaarde onder waarschuwingswaarde",
+				"dosierstop": "Externe doseerstop",
+				"einschaltverzögerung": "Inschakelvertraging",
+				"empty": "Momenteel zijn er geen meldingen",
+				"nullpunkt": "Nulpuntsfout",
+				"ph_alarm_oben": "pH-waarde boven alarmwaarde",
+				"ph_alarm_unten": "pH-waarde onder alarmwaarde",
+				"ph_leer": "pH opslag leeg",
+				"ph_warn_oben": "pH-waarde boven waarschuwingswaarde",
+				"ph_warn_unten": "pH-waarde onder waarschuwingswaarde",
+				"regelgrenze_ph_oben": "pH waarde boven de controle limiet",
+				"regelgrenze_ph_unten": "pH waarde onder de controle limiet",
+				"steilheit": "Steilheidsfout",
+				"temperatur_alarm_oben": "Watertemperatuur boven de alarmwaarde",
+				"temperatur_alarm_unten": "Watertemperatuur onder de alarmwaarde",
+				"temperatur_warn_oben": "Watertemperatuur boven de waarschuwingswaarde",
+				"temperatur_warn_unten": "Watertemperatuur onder de waarschuwingswaarde",
+				"title": "Lijst met meldingen",
+				"unterteil": "Geen verbinding met onderste CPB deel",
+				"wassermangel": "Meetwater storing"
+			}
+		},
+		"save": "Opslaan",
+		"saved": "De veranderingen worden aan uw PC DYNAMICS overdragen.",
+		"setpoints": {
+			"activated": "Geactiveerd",
+			"aer": {
+				"hours": "Uren",
+				"minutes": "Minuten",
+				"startmanual": "Handmatig starten",
+				"timeperday": "Aantal per dag"
+			},
+			"deactivated": "Gedeactiveerd",
+			"desinfection": {
+				"alarmDelay": "Alarmvertraging",
+				"circulationTime": "Circulatietijd",
+				"compensation": "Compensatie",
+				"concentration": "Concentratie",
+				"dosingTime": "Doseertijd bewaking",
+				"finedosing": "Fijne dosering",
+				"hysterese": "Hysterese",
+				"lowerAlarm": "Alarmwaarde onder",
+				"lowerWarn": "Waarschuwingswaarde onder",
+				"manCompensation": "Handmatige compensatie",
+				"manDosing": "Handmatige continue dosering",
+				"options": {
+					"auto": "Automatisch",
+					"manual": "Handmatig"
+				},
+				"pRange": "P-bereik",
+				"poolsize": "Zwembadinhoud",
+				"pumppower": "Pompcapaciteit",
+				"resetTime": "Integraal",
+				"setpoint": "Gewenste waarde",
+				"titles": {
+					"title1": "Gewenste waarde",
+					"title2": "Regeling",
+					"title3": "Doserings instellingen",
+					"title4": "Temperatuurcompensatie"
+				},
+				"upperAlarm": "Alarmwaarde boven",
+				"upperWarn": "Waarschuwingswaarde boven"
+			},
+			"filter": {
+				"friday": "Vrijdag",
+				"monday": "Maandag",
+				"saturday": "Zaterdag",
+				"sunday": "Zondag",
+				"thursday": "Donderdag",
+				"timermark1": "Schakeltijd 1",
+				"timermark2": "Schakeltijd 2",
+				"tuesday": "Dinsdag",
+				"wednesday": "Woensdag"
+			},
+			"temperature": {
+				"upperAlarm": "Alarmwaarde boven",
+				"upperWarn": "Waarschuwingswaarde boven",
+				"setpoint": "Gewenste waarde",
+				"lowerWarn": "Waarschuwingswaarde onder",
+				"lowerAlarm": "Alarmwaarde onder",
+				"correction": "Correctie",
+				"alarmdelay": "Alarmvertraging"
+			},
+			"solar": {
+				"diff": "Verschil temperatuur"
+			},
+			"off": "Uit",
+			"on": "Aan",
+			"ph": {
+				"alarmDelay": "Alarmvertraging",
+				"deathrange": "Dode band",
+				"dosingTime": "Doseertijd bewaking",
+				"hysterese": "Hysterese",
+				"lowerAlarm": "Alarmwaarde onder",
+				"lowerWarn": "Waarschuwingswaarde onder",
+				"manDosing": "Handmatige continue dosering",
+				"pRange": "P-bereik",
+				"resetTime": "Integraal",
+				"setpoint": "Gewenste waarde",
+				"titles": {
+					"title1": "Gewenste waarde",
+					"title2": "Regeling",
+					"title3": "Doserings instellingen"
+				},
+				"upperAlarm": "Alarmwaarde boven",
+				"upperWarn": "Waarschuwingswaarde boven"
+			},
+			"poolcare": {
+				"tDosZeit": "Dagelijkse doseertijd",
+				"taglPumpLz": "Dagelijkse filterpomp looptijd"
+			},
+			"redox": {
+				"hystereseRedox": "Hysterese",
+				"pBerRx": "P-bereik",
+				"sollRx": "Gewenste waarde"
+			},
+			"samplewater": {
+				"compensation": "Compensatie",
+				"flow": "Debiet",
+				"flowrate": "Debietpercentage",
+				"maxflow": "Maximale debiet",
+				"minflow": "Minimale debiet"
+			},
+			"time": {
+				"day": "Dag",
+				"hours": "Uren",
+				"minutes": "Minuten",
+				"month": "Maand",
+				"year": "Jaar"
+			},
+			"titles": {
+				"brom": "Broom",
+				"calibration": "Kalibratie",
+				"chlordioxid": "Chloordioxide",
+				"datetime": "Datum en tijd",
+				"filter": "Filtertijden",
+				"flow": "Debiet",
+				"freechlorine": "Vrij chloor",
+				"organicchlorine": "Organisch chloor",
+				"ozon": "Ozon",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare tijdgestuurd",
+				"redox": "Redox",
+				"relais": "Relais",
+				"samplewater": "Meetwater",
+				"temperature": "Temperatuur",
+				"timer": "Timer",
+				"aer": "AER",
+				"solar": "Solar"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Meneer",
+		"ms": "Mevrouw"
+	},
+	"save": "Opslaan",
+	"types": {
+		"CF100": "CF Control 100",
+		"PCD": "PC DYNAMICS"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Er heeft zich een probleem voorgedaan met uw paswoord. Controleer a.u.b. uw internetverbinding.",
+				"success": "Er werd zojuist een email gestuurd naar het eerder opgegeven emailadres, met daarin een link om uw wachtwoord te resetten.",
+				"title": "Wachtwoord vergeten",
+				"wrongemail": "Er kon geen account met dit email adres gevonden worden."
+			},
+			"login": {
+				"email": "E-mailadres",
+				"error": "Er kon geen account met de ingegeven gebruikersdata gevonden worden.",
+				"forgotpassword": "Wachtwoord vergeten",
+				"noaccount": "Nog geen Account?",
+				"password": "Wachtwoord",
+				"pleaselogin": "Om verder te gaan, graag inloggen",
+				"welcome": "Welkom,"
+			},
+			"register": {
+				"back": "Terug naar login",
+				"emailerror": "Er heeft zich een probleem voorgedaan bij het testen van het E-mail adres. Controleer a.u.b. uw internetverbinding.",
+				"error": "Er heeft zich een probleem voorgedaan bij het afsluiten van de registratie. Controleer a.u.b. uw internetverbinding.",
+				"firstname": "Voornaam",
+				"lastname": "Achternaam",
+				"passwordlength": "Uw wachtwoord moet minimaal 8 tekens lang zijn.",
+				"privacy": "Ik stem toe met de gegevensbeschermingsvoorwaarden. Bij het wissen van mijn account, volgt automatisch een intrekking van mijn toestemming.",
+				"privacylink": "Gegevensbeschermingsvoorwaarden oproepen",
+				"register": "Registreren",
+				"registration": "Registratie",
+				"repeatpassword": "Wachtwoord herhalen",
+				"salutation": "Adres"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Woonplaats",
+				"country": "Land",
+				"name": "Omschrijving",
+				"title": "Apparaat configureren",
+				"namehint": "",
+				"typehint": "Kiest u hier a.u.b. uw type apparaat uit.",
+				"zip": "Postcode"
+			},
+			"passphrase": "Wachtwoord",
+			"ssid": "SSID",
+			"step": "Stap %{step}:",
+			"wificredentials": {
+				"help1": "Om er zeker van te zijn dat uw %{type} met uw App communiceren kan, moet uw apparaat zich in een met het internet verbonden netwerk bevinden. ",
+				"help2": "Voert u hier uw toegangsgegevens in voor het 2,4Ghz WLAN-netwerk dat u wilt gebruiken. Dit netwerk moet DHCP ondersteunen.",
+				"passphrasehint": "Uw privé WLAN moet met een wachtwoord beveiligd zijn zodat, het apparaat veilig daarmee kan communiceren.",
+				"title": "WLAN configureren"
+			},
+			"wifilist": {
+				"configured": "Apparaat geconfigureerd",
+				"configuring": "Configureren ...",
+				"connected": "Verbonden",
+				"connectingWithWebsocket": "Verbinden met de Cloud",
+				"connectionFailed": "Verbinding niet succesvol",
+				"currentwifi": "Actuele WLAN: %{ssid}",
+				"devicetimeout": "Het apparaat heeft in de laatste minuten nog geen data verstuurd.",
+				"failed": "Helaas, configuratie mislukt",
+				"finished": "Succesvol afgesloten",
+				"help1": "Ga naar uw systeeminstellingen en zoek naar het WLAN-netwerk van uw %{type}.",
+				"help2": "De naam van het netwerk begint met",
+				"help3": "Zodra u zich met het netwerk verbonden heeft, kunt u zich tot de App wenden om de configuratie verder voort te zetten.",
+				"permission": {
+					"message": "Wij hebben uw bevestiging nodig om uw actuele WLAN te kunnen herkennen",
+					"title": "WLAN netwerk"
+				},
+				"title": "Verbindingsopbouw",
+				"trying": "Verzoekt te \r\nverbinden ...",
+				"waiting": "Wachten ...",
+				"waitingForMessage": "Wachten op de eerste data",
+				"websockettimeout": "Weest u er zeker van, dat u weer een internetverbinding heeft zodat, de configuratie weer verder voortgezet kan worden.",
+				"wrongtype": "Dit apparaat is geen %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Wachtwoord veranderen",
+				"currentpassword": "Actueel wachtwoord",
+				"email": "Email",
+				"emailexists": "Het door u ingegeven E-mail adres behoort reeds tot een ander account.",
+				"emailissue": "Er heeft zich een probleem voorgedaan bij het opslaan van uw informatie. Controleer a.u.b. of u een internetverbinding heeft en probeer het opnieuw.",
+				"emaillong": "E-mailadres",
+				"firstname": "Voornaam",
+				"language": "Taal",
+				"lastname": "Achternaam",
+				"logout": "Uitloggen",
+				"misc": "Diverse",
+				"newpassword": "Nieuw wachtwoord",
+				"password": "Wachtwoord",
+				"passwordchanged": "Uw wachtwoord is succesvol veranderd.",
+				"passwordissue": "Er heeft zich een probleem voorgedaan met het veranderen van uw wachtwoord. Controleer a.u.b. of u een internetverbinding heeft en probeer het opnieuw.",
+				"passwordnotmatching": "Het door u ingegeven wachtwoord komt niet overeen met het in uw account vastgelegde wachtwoord.\r\n\r\nProbeer het a.u.b. opnieuw.",
+				"privacy": "Privacy en gebruiksvoorwaarden",
+				"profile": "Profiel",
+				"repeatnewpassword": "Nieuw wachtwoord herhalen",
+				"salutation": "Adres",
+				"subscription": "Abonnement",
+				"subscriptionend": "Loopt af op %{date}",
+				"subscriptioninactive": "Inactief",
+				"title": "Instellingen"
+			},
+			"overview": {
+				"noinstallations": "U heeft nog geen apparaat toegevoegd. Klik a.u.b. op onderstaande button om een apparaat toe te voegen.",
+				"yourinstallations": "Uw installaties."
+			}
+		}
+	}
+}

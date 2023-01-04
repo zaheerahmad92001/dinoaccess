@@ -1,0 +1,490 @@
+{
+	"back": "Nazaj",
+	"cancel": "Prekinitev",
+	"search": "Iskanje",
+	"reset": "Ponastavitev",
+	"settings": {
+		"stockist": "Specializirani trgovec",
+		"city": "Mesto",
+		"code": "Koda",
+		"zip": "Poštna številka",
+		"country": "Država",
+		"delete": "Brisanje naprave",
+		"device": "Naprava",
+		"espfw": "Različica WLAN-a",
+		"firmware": "Strojna programska oprema",
+		"firmwareerror": "Pri iskanju posodobitve je prišlo do napake. Preverite svojo internetno povezavo.",
+		"firmwareupdate": "Iskanje posodobitve",
+		"infos": "Informacije",
+		"interval": "Interval posodabljanja",
+		"intervals": {
+			"10": "10 sekund",
+			"20": "20 sekund",
+			"30": "30 sekund",
+			"45": "45 sekund",
+			"60": "1 minuta"
+		},
+		"ip": "Krajevni naslov IP",
+		"lastupdate": "Zadnja posodobitev",
+		"name": "Ime za prikaz",
+		"nofirmwareupdate": "Imate najnovejšo strojno programsko opremo",
+		"offline": "Ta naprava je trenutno brez povezave Zato lahko trenutno le obdelujete njene nastavitve, ne morete pa se z njo povezati.",
+		"position": "Mesto postavitve",
+		"schema": "Barvna shema",
+		"serial": "Serijska številka",
+		"signalstrength": "Jakost signala",
+		"ssid": "SSID",
+		"title": "Nastavitve ",
+		"token": "Žeton",
+		"update": "Preverite ali je na voljo posodobitev",
+		"updates": {
+			"continue": "Namestite posodobitev",
+			"noupdateavailable": "Nobena posodobitev ni na voljo",
+			"updateavailable": "Za vašo napravo je na voljo različica posodobitve ${version}. Posodabljanje lahko traja do 10 minut, v tem času pa svoje naprave ne morete uporabljati.",
+			"updatefailed": "Posodobitve ni bilo mogoče namestiti uspešno. Znova poskusite namestiti posodobitev."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Umerjanje",
+			"calibrate4": "Umerjanje pH 4",
+			"calibrate7": "Umerjanje pH 7",
+			"calibrated": "Umerjanje opravljeno",
+			"messWertpH": "Dejanska vrednost pH",
+			"sondenSpannungPH": "Napetost sonde",
+			"sondenSteilheitPH": "Strmost sonde"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Razkuženje",
+				"filter": "Črpalka filtra",
+				"heating": "Gretje",
+				"installation": "Avtomatika",
+				"phlower": "Znižanje pH",
+				"phraise": "Dvig pH",
+				"title": "Hitri dostop"
+			},
+			"messages": {
+				"1": "Posoda z razkužilom je prazna",
+				"10": "Dnevni odmerek je bil prekoračen",
+				"11": "Napaka strmine",
+				"2": "Posoda za pH je prazna",
+				"3": "Pomanjkanje merilne vode",
+				"4": "Iztekanje",
+				"5": "Čas odmerjanja razkužila prekoračen",
+				"6": "Prekoračen je čas odmerjanja za znižanje pH",
+				"7": "Prekoračen je čas odmerjanja za zvišanje pH",
+				"8": "Merjenje temperature 0 je moteno",
+				"9": "Merjenje temperature 1 je moteno",
+				"empty": "Trenutno ni nobenih sporočil.",
+				"title": "Seznam sporočil"
+			}
+		},
+		"save": "Prevzeti",
+		"saved": "Spremembe so bile posredovane vašemu CF Control 100.",
+		"setpoints": {
+			"activated": "Aktivirano",
+			"deactivated": "Dezaktivirano",
+			"off": "Izklop",
+			"on": "Vklop",
+			"ph": {
+				"hystPH": "Histereza",
+				"pBerPH": "Območje P:",
+				"sollPH": "Ciljna vrednost pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Dnevni čas odmerka",
+				"taglPumpLz": "Dnevni čas delovanja črpalke"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "Območje P:",
+				"sollRx": "Ciljna vrednost:"
+			},
+			"temperature": {
+				"solarTempDiff": "Temperaturna razl. Sončna celica",
+				"sollTemp": "Ciljna vrednost:",
+				"tempKorrektur0": "Faktor umerjanja",
+				"tempKorrektur1": "Faktor umerjanja za sončno celico"
+			},
+			"timer": {
+				"schaltFPst0": "Čas filtriranja 1 (dnevno)",
+				"schaltFPst2": "Čas filtriranja 2 (dnevno)"
+			},
+			"title": "Ciljne vrednosti",
+			"titles": {
+				"calibration": "Umerjanje",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "Redox",
+				"relais": "Releji",
+				"temperature": "Temperatura",
+				"timer": "Stikalna ura:"
+			}
+		}
+	},
+	"continue": "Dalje",
+	"delete": "Izbrisati",
+	"hello": "Halo",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- odvijte elektrodo pH in jo s čisto krpo obrišite do suhega.\r\n- elektrodo pH potopite v puferno raztopino 7,0 in počakajte, da se vrednost pH umiri.\r\n- dotaknite se Umerjanje pH 7 in počakajte, da vrednost pH doseže pribl. 7,00 pH.\r\n- elektrodo pH posušite s prapirno kopreno.\r\n- elektrodo pH potopite v puferno raztopino 4,0 in počakajte, da se vrednost pH umiri.\r\n- dotaknite se Umerjanje pH 4 in počakajte, da vrednost pH doseže pribl. 4,00 pH.\r\n- s tem je umerjanje končano.",
+			"title": "Umerjanje elektrode pH"
+		},
+		"delete": {
+			"description1": "Vnesite ime svoje naprave,",
+			"description2": "da bi potrdili brisanje.",
+			"title": "Brisanje naprave?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Spremembe",
+			"couldnotfind": "V vašem omrežju ni bilo mogoče najti %{type}",
+			"description": "Najnovejša razpoložljiva različica strojne programske opreme je **%{version}**. Za posodobitev se prepričajte, da ste v istem omrežju, kot vaš %{type}.",
+			"done": "Posodobitev je bila naložena na vaš %{type}. Ta se bo zdaj zagnal na novo in namestil posodobitev. Ta postopek lahko traja do 10 minut.",
+			"downloading": "Posodobitev se prenaša",
+			"error": "Pri prenosu posodobitve je prišlo do napake",
+			"twoupdates": "Na voljo je več posodobitev, ki jih ni mogoče namestiti sočasno. Po uspešni posodobitvi znova poiščite posodobitev in jo namestite.",
+			"start": "Posodobite",
+			"title": "Na voljo je posodobitev strojne programske opreme",
+			"uploading": "Nalagam posodobitev"
+		},
+		"firmwareupdating": {
+			"error": "%{type} je znova povezan, ni pa bil posodobljen. Znova poskusite posodobiti.",
+			"message": "%{type} pravkar obdeluje posodobitev. Do ponovne povezave naprave lahko traja nekaj minut.",
+			"ok": "V redu",
+			"title": "Izvaja se posodabljanje"
+		},
+		"notconnected": {
+			"continue": "Nadaljujte s konfiguracijo",
+			"delete": "Izbrisati",
+			"description": "Ta naprava se do sedaj še ni povezala z oblakom.",
+			"title": "Naprava ni povezana"
+		},
+		"subscription": {
+			"message": "Da bi lahko nastavili svoj CF Control 100, se morate naročiti.\r\n\r\n### %{title}\r\n**%{price} za %{month} mesecev**\r\nvam omogoča, da nastavite vrednosti na vseh svojih CF Control 100 in jih umerite s prenesenim programom.",
+			"yes": "Naročanje"
+		},
+		"updating": {
+			"description": "Ta naprava je bila pravkar posodobljena. Ta postopek lahko traja do 10 minut.",
+			"title": "Naprava se posodablja"
+		}
+	},
+	"notconnectedwriting": "Vaših nastavitev ni bilo mogoče prenesti, ker vaša naprava ni povezana z našim oblakom. Preverite svojo povezavo do interneta.",
+	"okay": "V redu",
+	"pcd": {
+		"calibration": {
+			"DPD": "Vrednost DPD",
+			"calReset": "Ponastavitev umerjanja",
+			"calibrate": "Umerjanje",
+			"calibrate4": "Umerjanje pH 4",
+			"calibrate7": "Umerjanje pH 7",
+			"calibrateDes": "Umerjanje razkužila",
+			"calibratePH": "Umerjanje\tpH",
+			"calibrated": "Umerjanje opravljeno",
+			"inputcurrent": "Vhodni tok",
+			"inputvoltage": "Napetost na vhodu",
+			"messWert": "Dosežena vrednost",
+			"onepoint": "Enotočkovno umerjanje",
+			"photometer": "Fotometer- vrednost",
+			"sondenSteilheit": "Strmost sonde",
+			"twopoint": "Dvotočkovno umerjanje",
+			"zeropint": "Nulta točka"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Razkuženje",
+				"desmanual": "Ročno krmiljenje",
+				"deson": "Vklopljeno",
+				"filter": "Črpalka filtra",
+				"filtermanual": "Ročno krmiljenje",
+				"filteron": "Vklopljeno",
+				"ph": "pH",
+				"phmanual": "Ročno krmiljenje",
+				"phon": "Vklopljeno",
+				"title": "Hitri dostop"
+			},
+			"faults": {
+				"dosierzeit_des": "Čas odmerjanja razkužila prekoračen",
+				"dosierzeit_phlower": "Čas odmerjanja za znižanje pH prekoračen",
+				"dosierzeit_phraise": "Čas odmerjanja za zvišanje pH prekoračen",
+				"title": "Motnje"
+			},
+			"messages": {
+				"dauerdosierung_des": "Stalno doziranje dezinfekcije poteka",
+				"dauerdosierung_ph": "Stalno doziranje pH poteka",
+				"des_alarm_oben": "Razkužilo nad vrednostjo alarma",
+				"des_alarm_unten": "Razkužilo pod vrednostjo alarma",
+				"des_leer": "Posoda z razkužilom je prazna",
+				"des_warn_oben": "Razkužilo nad vrednostjo opozorila",
+				"des_warn_unten": "Razkužilo pod vrednostjo opozorila",
+				"dosierstop": "Ustavitev odmerjanja od zunaj",
+				"einschaltverzögerung": "Zakasnitev vklopa:",
+				"empty": "Trenutno ni nobenih sporočil.",
+				"nullpunkt": "Napaka nulte točke",
+				"ph_alarm_oben": "Vrednost pH nad vrednostjo alarma",
+				"ph_alarm_unten": "Vrednost pH pod vrednostjo alarma",
+				"ph_leer": "Posoda za pH je prazna",
+				"ph_warn_oben": "Vrednost pH nad vrednostjo opozorila",
+				"ph_warn_unten": "Vrednost pH pod vrednostjo opozorila",
+				"regelgrenze_ph_oben": "Meja pH prekoračena",
+				"regelgrenze_ph_unten": "Meja pH, pod mejo",
+				"steilheit": "Napaka strmine",
+				"temperatur_alarm_oben": "Temperatura vode nad vrednostjo alarma",
+				"temperatur_alarm_unten": "Temperatura vode pod vrednostjo alarma",
+				"temperatur_warn_oben": "Temperatura vode nad vrednostjo opozorila",
+				"temperatur_warn_unten": "Temperatura vode pod vrednostjo opozorila",
+				"title": "Seznam sporočil",
+				"unterteil": "Ni povezave s spodnjim delom",
+				"wassermangel": "Pomanjkanje merilne vode"
+			}
+		},
+		"save": "Prevzeti",
+		"saved": "Spremembe so bile posredovane vašemu PC Dynamics.",
+		"setpoints": {
+			"activated": "Aktivirano",
+			"aer": {
+				"hours": "Ura",
+				"minutes": "Minuta",
+				"startmanual": "Ročni zagon",
+				"timeperday": "Število na dan"
+			},
+			"deactivated": "Dezaktivirano",
+			"desinfection": {
+				"alarmDelay": "Zakasnitev alarma:",
+				"circulationTime": "Pretočni čas",
+				"compensation": "Kompenzacija",
+				"concentration": "Koncentracija",
+				"dosingTime": "Nadzorovanje dozirnega časa",
+				"finedosing": "Fino doziranje",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Vrednost alarma spodaj",
+				"lowerWarn": "Vrednost opozorila spodaj",
+				"manCompensation": "Ročna kompenzacija",
+				"manDosing": "Ročno doziranje",
+				"options": {
+					"auto": "Samodejno",
+					"manual": "Ročno"
+				},
+				"pRange": "Območje P:",
+				"poolsize": "Prostornina bazena",
+				"pumppower": "Moč črpalke",
+				"resetTime": "Čas ponovne naravnave",
+				"setpoint": "Ciljna vrednost:",
+				"titles": {
+					"title1": "Ciljne vrednosti",
+					"title2": "Uravnavanje:",
+					"title3": "Nastavitve odmerjanja",
+					"title4": "Kompenzacija temperature"
+				},
+				"upperAlarm": "Vrednost alarma zgoraj:",
+				"upperWarn": "Vrednost opozorila zgoraj"
+			},
+			"filter": {
+				"friday": "Petek",
+				"monday": "Ponedeljek",
+				"saturday": "Sobota",
+				"sunday": "Nedelja",
+				"thursday": "Četrtek",
+				"timermark1": "Oznaka preklopa 1",
+				"timermark2": "Oznaka preklopa 2",
+				"tuesday": "Torek",
+				"wednesday": "Sreda"
+			},
+			"temperature": {
+				"upperAlarm": "Vrednost alarma zgoraj:",
+				"upperWarn": "Vrednost opozorila zgoraj",
+				"setpoint": "Ciljna vrednost:",
+				"lowerWarn": "Vrednost opozorila spodaj",
+				"lowerAlarm": "Vrednost alarma spodaj",
+				"correction": "Korekcija",
+				"alarmdelay": "Zakasnitev alarma:"
+			},
+			"solar": {
+				"diff": "Diferenčna temperatura"
+			},
+			"off": "Izklop",
+			"on": "Vklop",
+			"ph": {
+				"alarmDelay": "Zakasnitev alarma:",
+				"deathrange": "Mrtvi trak",
+				"dosingTime": "Nadzorovanje dozirnega časa",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Vrednost alarma spodaj",
+				"lowerWarn": "Vrednost opozorila spodaj",
+				"manDosing": "Ročno doziranje",
+				"pRange": "Območje P:",
+				"resetTime": "Čas ponovne naravnave",
+				"setpoint": "Ciljna vrednost:",
+				"titles": {
+					"title1": "Ciljne vrednosti",
+					"title2": "Uravnavanje:",
+					"title3": "Nastavitve odmerjanja"
+				},
+				"upperAlarm": "Vrednost alarma zgoraj:",
+				"upperWarn": "Vrednost opozorila zgoraj"
+			},
+			"poolcare": {
+				"tDosZeit": "Dnevni čas odmerka",
+				"taglPumpLz": "Dnevni čas delovanja črpalke"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "Območje P:",
+				"sollRx": "Ciljna vrednost:"
+			},
+			"samplewater": {
+				"compensation": "Kompenzacija",
+				"flow": "Pretok",
+				"flowrate": "Količinik pretoka",
+				"maxflow": "Maksimalni pretok",
+				"minflow": "Minimalni pretok"
+			},
+			"time": {
+				"day": "Dan",
+				"hours": "Ure",
+				"minutes": "Minute",
+				"month": "Mesec",
+				"year": "Leto"
+			},
+			"titles": {
+				"brom": "Brom",
+				"calibration": "Umerjanje",
+				"chlordioxid": "Klorov dioksid",
+				"datetime": "Datum in ura",
+				"filter": "Časi filtriranja",
+				"flow": "Pretok",
+				"freechlorine": "Prosti klor",
+				"organicchlorine": "Organski klor",
+				"ozon": "Ozon",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Časovno krmiljeni Poolcare",
+				"redox": "Redox",
+				"relais": "Releji",
+				"samplewater": "Voda za meritev",
+				"temperature": "Temperatura",
+				"timer": "Stikalna ura:",
+				"aer": "AER",
+				"solar": "Sončna celica"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Gospod",
+		"ms": "Gospa"
+	},
+	"save": "Shraniti",
+	"types": {
+		"CF100": "CF Control 100",
+		"PCD": "PC Dynamics"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Pri ponastavljanju vašega gesla je prišlo do napake. Preverite svojo povezavo do interneta.",
+				"success": "Na navedeni e-poštni naslov je bila poslana e-pošta s povezavo za ponastavitev vašega gesla.",
+				"title": "Pozabljeno geslo",
+				"wrongemail": "S tem e-poštnim naslovom ni bil najden noben račun"
+			},
+			"login": {
+				"email": "Naslov e-pošte",
+				"error": "Z navedenimi podatki uporabnika ni bil najden noben račun.",
+				"forgotpassword": "Pozabljeno geslo",
+				"noaccount": "Še nimate računa?",
+				"password": "Geslo",
+				"pleaselogin": "Na nadaljevanje se morate prijaviti",
+				"welcome": "Dobrodošli,"
+			},
+			"register": {
+				"back": "Nazaj k prijavi",
+				"emailerror": "Pri preverjanju naslova e-pošte je prišlo do napake. Preverite svojo povezavo do interneta.",
+				"error": "Ob zaključevanju registracije je prišlo do težave. Preverite svojo povezavo do interneta.",
+				"firstname": "Ime",
+				"lastname": "Priimek",
+				"passwordlength": "Geslo mora biti dolgo najmanj 8 znakov.",
+				"privacy": "Soglašam s pogoji za varstvo osebnih podatkov. Soglasje prekličete z brisanjem svojega računa.",
+				"privacylink": "Priklic pogojev za varstvo osebnih podatkov",
+				"register": "Registriranje",
+				"registration": "Registracija",
+				"repeatpassword": "Ponovite geslo",
+				"salutation": "Naziv"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Mesto",
+				"country": "Država",
+				"name": "Oznaka",
+				"title": "Konfiguriranje naprave",
+				"namehint": "",
+				"typehint": "Izberite vrsto svoje naprave.",
+				"zip": "Poštna številka"
+			},
+			"passphrase": "Geslo",
+			"ssid": "SSID",
+			"step": "Korak %{step}:",
+			"wificredentials": {
+				"help1": "Da bi lahko vaš %{type} komuniciral s programčkom, mora biti v omrežju, ki je povezano z internetom. ",
+				"help2": "Tu vnesite dostopne podatke za brezžično omrežje 2,4 Ghz, ki bi ga radi uporabljali. To omrežje mora podpirati DHCP.",
+				"passphrasehint": "Vaše zasebno brezžično omrežje mora biti zaščiteno z geslom, da bi lahko naprava varno komunicirala z njim.",
+				"title": "Konfiguriranje brezžičnega omrežja"
+			},
+			"wifilist": {
+				"configured": "Naprava je konfigurirana",
+				"configuring": "Konfiguracija poteka ...",
+				"connected": "Priključeno",
+				"connectingWithWebsocket": "Povezujem z oblakom",
+				"connectionFailed": "Povezava ni uspela",
+				"currentwifi": "Trenutno brežično omrežje: %{ssid}",
+				"devicetimeout": "Naprava ni poslal v zadnjih minutah nobenih podatkov.",
+				"failed": "Konfiguriranje ni uspelo",
+				"finished": "Zaključeno",
+				"help1": "Pojdite v svoje sistemske nastavitve in poiščite brezžično omrežje svojega %{type}.",
+				"help2": "Ime omrežja se začne z",
+				"help3": "Takoj, ko ste se povezali z omrežjem, se lahko znova vrnete v program, da bi nadaljevali z urejanjem.",
+				"permission": {
+					"message": "Da bi lahko videli vaše trenutno brezžično omrežje potrebujemo vašo potrditev.",
+					"title": "Brezžično omrežje"
+				},
+				"title": "Vzpostavljanje povezave",
+				"trying": "Skušam\r\npovezati ...",
+				"waiting": "Počakajte ...",
+				"waitingForMessage": "Čakam na prve podatke",
+				"websockettimeout": "Zagotovite, da boste imeli znova povezavo s spletom, da bi lahko nadaljevali s konfiguracijo.",
+				"wrongtype": "Ta naprava ni %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Spremenite geslo",
+				"currentpassword": "Trenutno geslo",
+				"email": "E-pošta",
+				"emailexists": "E-poštni naslov, ki ste ga navedli, sodi k drugemu računu.",
+				"emailissue": "Pri shranjevanju vaših podatkov je prišlo do težav. Preverite, ali imate vzpostavljeno povezavo do spleta ion poskusite znova.",
+				"emaillong": "Naslov e-pošte",
+				"firstname": "Ime",
+				"language": "Jezik",
+				"lastname": "Priimek",
+				"logout": "Odjava",
+				"misc": "Drugo",
+				"newpassword": "Novo geslo",
+				"password": "Geslo",
+				"passwordchanged": "Vaše geslo je bilo uspešno spremenjeno.",
+				"passwordissue": "Pri spreminjanju vašega gesla je prišlo do težave. Preverite, ali imate vzpostavljeno povezavo do spleta ion poskusite znova.",
+				"passwordnotmatching": "Navedeno geslo se ne ujema z geslom, ki ste ga shranili v vašem računu.\r\n\r\nPoskusite znova.",
+				"privacy": "Varstvo podatkov in pogoju uporabe",
+				"profile": "Profil",
+				"repeatnewpassword": "Ponovite novo geslo",
+				"salutation": "Naziv",
+				"subscription": "Naročnina",
+				"subscriptionend": "Poteče dne %{date}",
+				"subscriptioninactive": "Neaktivno",
+				"title": "Nastavitve "
+			},
+			"overview": {
+				"noinstallations": "Trenutno še niste shranili nobene naprave. Za dodajanje naprave kliknite na spodnji gumb.",
+				"yourinstallations": "Tu so vaše naprave."
+			}
+		}
+	}
+}

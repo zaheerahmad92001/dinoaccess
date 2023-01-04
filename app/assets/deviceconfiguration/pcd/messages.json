@@ -1,0 +1,141 @@
+{
+  "messages": [
+    {
+      "register": 142,
+      "bit": 1,
+      "message": "pcd.overview.messages.des_alarm_oben"
+    },
+    {
+      "register": 142,
+      "bit": 2,
+      "message": "pcd.overview.messages.des_warn_oben"
+    },
+    {
+      "register": 142,
+      "bit": 3,
+      "message": "pcd.overview.messages.des_warn_unten"
+    },
+    {
+      "register": 142,
+      "bit": 4,
+      "message": "pcd.overview.messages.des_alarm_unten"
+    },
+    {
+      "register": 142,
+      "bit": 5,
+      "message": "pcd.overview.messages.ph_warn_oben"
+    },
+    {
+      "register": 142,
+      "bit": 6,
+      "message": "pcd.overview.messages.ph_warn_unten"
+    },
+    {
+      "register": 142,
+      "bit": 7,
+      "message": "pcd.overview.messages.ph_alarm_oben"
+    },
+    {
+      "register": 142,
+      "bit": 8,
+      "message": "pcd.overview.messages.ph_alarm_unten"
+    },
+    {
+      "register": 142,
+      "bit": 9,
+      "message": "pcd.overview.messages.wassermangel"
+    },
+    {
+      "register": 142,
+      "bit": 10,
+      "message": "pcd.overview.messages.dosierstop"
+    },
+    {
+      "register": 142,
+      "bit": 11,
+      "message": "pcd.overview.messages.des_leer"
+    },
+    {
+      "register": 142,
+      "bit": 15,
+      "message": "pcd.overview.messages.einschaltverzögerung"
+    },
+    {
+      "register": 142,
+      "bit": 16,
+      "message": "pcd.overview.messages.unterteil"
+    },
+    {
+      "register": 143,
+      "bit": 1,
+      "message": "pcd.overview.messages.steilheit"
+    },
+    {
+      "register": 143,
+      "bit": 2,
+      "message": "pcd.overview.messages.nullpunkt"
+    },
+    {
+      "register": 143,
+      "bit": 3,
+      "message": "pcd.overview.messages.dauerdosierung_des"
+    },
+    {
+      "register": 143,
+      "bit": 4,
+      "message": "pcd.overview.messages.dauerdosierung_ph"
+    },
+    {
+      "register": 143,
+      "bit": 5,
+      "message": "pcd.overview.messages.regelgrenze_ph_oben"
+    },
+    {
+      "register": 143,
+      "bit": 6,
+      "message": "pcd.overview.messages.regelgrenze_ph_unten"
+    },
+    {
+      "register": 143,
+      "bit": 7,
+      "message": "pcd.overview.messages.temperatur_warn_oben"
+    },
+    {
+      "register": 143,
+      "bit": 8,
+      "message": "pcd.overview.messages.temperatur_warn_unten"
+    },
+    {
+      "register": 143,
+      "bit": 9,
+      "message": "pcd.overview.messages.temperatur_alarm_oben"
+    },
+    {
+      "register": 143,
+      "bit": 10,
+      "message": "pcd.overview.messages.temperatur_alarm_unten"
+    },
+    {
+      "register": 143,
+      "bit": 11,
+      "message": "pcd.overview.messages.ph_leer"
+    }
+  ],
+  "faults": [
+    {
+      "register": "142",
+      "bit": 12,
+      "message": "pcd.overview.faults.dosierzeit_des"
+    },
+    {
+      "register": "142",
+      "bit": 13,
+      "message": "pcd.overview.faults.dosierzeit_phraise"
+    },
+    {
+      "register": "142",
+      "bit": 14,
+      "message": "pcd.overview.faults.dosierzeit_phlower"
+    }
+  ]
+}

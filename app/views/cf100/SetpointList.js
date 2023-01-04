@@ -1,0 +1,7 @@
+import { createNavigator, onPressOverride } from '@/components/CF100/NavigationListComponent'
+import Cf100Setpoints from '@/assets/deviceconfiguration/cf100/setpoints'
+
+const navigator = createNavigator('Setpoints', Cf100Setpoints)
+
+export default navigator.navigationComponent
+export const onPress = navigator.onPressOverride
