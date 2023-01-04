@@ -1,0 +1,490 @@
+{
+	"back": "Retour",
+	"cancel": "Annuler",
+	"search": "Chercher",
+	"reset": "Réinitialiser",
+	"settings": {
+		"stockist": "Revendeur",
+		"city": "Ville",
+		"code": "Code",
+		"zip": "Code postal",
+		"country": "Pays",
+		"delete": "Effacer l'installation",
+		"device": "Installation",
+		"espfw": "Version WiFi",
+		"firmware": "Microprogramme",
+		"firmwareerror": "Erreur de recherche de mise à jour. Merci de vérifier la connexion à Internet.",
+		"firmwareupdate": "Rechercher une mise à jour",
+		"infos": "Informations",
+		"interval": "Intervalle d'actualisation",
+		"intervals": {
+			"10": "10 secondes",
+			"20": "20 secondes",
+			"30": "30 secondes",
+			"45": "45 secondes",
+			"60": "1 minute"
+		},
+		"ip": "Adresse IP locale",
+		"lastupdate": "Dernière mise à jour",
+		"name": "Nom de l’affichage",
+		"nofirmwareupdate": "Votre micrologiciel est à jour",
+		"offline": "Cette installation n'est pas connectée. Vous pouvez modifier vos réglages, mais vous ne pouvez pas interagir avec l'installation.",
+		"position": "Emplacement",
+		"schema": "Schéma de couleur",
+		"serial": "Numéro de série",
+		"signalstrength": "Puissance du signal",
+		"ssid": "SSID",
+		"title": "Réglages",
+		"token": "Jeton",
+		"update": "Vérifier si une mise à jour est disponible",
+		"updates": {
+			"continue": "Installer la mise à jour",
+			"noupdateavailable": "Aucune mise à jour disponible",
+			"updateavailable": "La mise à jour version ${version} est disponible pour votre appareil. Pendant la mise à jour qui peut durer jusqu'à 10 minutes, vous ne pouvez pas utiliser votre appareil.",
+			"updatefailed": "L'installation de la mise à jour a échoué. Merci de réessayer de mettre à jour."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Etalonnage",
+			"calibrate4": "Etalonnage pH 4",
+			"calibrate7": "Etalonnage pH 7",
+			"calibrated": "Étalonnage terminé",
+			"messWertpH": "pH réel",
+			"sondenSpannungPH": "Tension de sonde",
+			"sondenSteilheitPH": "Pente de la sonde"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Désinfection",
+				"filter": "Pompe de filtration",
+				"heating": "Chauffage",
+				"installation": "Mode automatique",
+				"phlower": "Abaissement du pH",
+				"phraise": "Augmentation du pH",
+				"title": "Accès rapide"
+			},
+			"messages": {
+				"1": "Bidon désinfection est vide",
+				"10": "Dépassement de la quantité de dosage journalière",
+				"11": "Erreur de pente",
+				"2": "Bidon pH est vide",
+				"3": "Manque d’eau de mesure",
+				"4": "Fuite",
+				"5": "Dépassement tps dosage désinfect.",
+				"6": "Dépassement tps dosage abaiss. pH",
+				"7": "Dépassement tps dosage augm. pH",
+				"8": "Défaut de mesure de température 0",
+				"9": "Défaut de mesure de température 1",
+				"empty": "Aucun message pour l'instant.",
+				"title": "Liste de messages"
+			}
+		},
+		"save": "Prendre en charge",
+		"saved": "Les modifications ont été transmises à votre CF Control 100.",
+		"setpoints": {
+			"activated": "Activé",
+			"deactivated": "Désactivé",
+			"off": "Arrêt",
+			"on": "Marche",
+			"ph": {
+				"hystPH": "Hystérésis",
+				"pBerPH": "Bande P",
+				"sollPH": "Valeur de consigne pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Temps de dosage quotidien",
+				"taglPumpLz": "Durée journalière de fonctionnement pompe"
+			},
+			"redox": {
+				"hystereseRedox": "Hystérésis",
+				"pBerRx": "Bande P",
+				"sollRx": "Valeur de consigne"
+			},
+			"temperature": {
+				"solarTempDiff": "Température diff. Solaire",
+				"sollTemp": "Valeur de consigne",
+				"tempKorrektur0": "Facteur d'étalonnage",
+				"tempKorrektur1": "Facteur d'étalonnage Solaire"
+			},
+			"timer": {
+				"schaltFPst0": "Temps filtre 1 (quotidien)",
+				"schaltFPst2": "Temps filtre 2 (quotidien)"
+			},
+			"title": "Valeurs de consigne",
+			"titles": {
+				"calibration": "Etalonnage",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "redox",
+				"relais": "Relais",
+				"temperature": "Température",
+				"timer": "Minuterie"
+			}
+		}
+	},
+	"continue": "Continuer",
+	"delete": "Effacer",
+	"hello": "Hello",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Dévisser l'électrode pH et l'essuyer avec un chiffon propre.\r\n- Plonger l’électrode pH dans la solution tampon 7,0 et attendre jusqu’à ce que le pH se stabilise.\r\n- Effleurer étalonnage pH 7 et attendre que le pH soit égal environ à 7,00.\r\n- Sécher l'électrode pH avec du papier tissé.\r\n- Plonger l’électrode pH dans la solution tampon 4,0 et attendre jusqu’à ce que le pH se stabilise.\r\n- Effleurer étalonnage pH 4 et attendre que le pH soit égal environ à 4,00.\r\n- L'étalonnage est terminé.",
+			"title": "Étalonnage de l’électrode pH"
+		},
+		"delete": {
+			"description1": "Merci de saisir le nom de votre installation",
+			"description2": "pour confirmer la suppression.",
+			"title": "Supprimer l'installation ?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Modifications",
+			"couldnotfind": "%{type} introuvable dans votre réseau",
+			"description": "La version de micrologiciel la plus récente disponible est **%{version}**. Pour effectuer la mise à jour, vérifiez que vous êtes dans le même réseau que votre %{type}.",
+			"done": "La mise à jour a été téléversée sur votre %{type}. Il redémarre maintenant pour installer la mise à jour. Ce processus peut durer jusqu'à 10 minutes.",
+			"downloading": "Téléchargement de la mise à jour",
+			"error": "Erreur de téléchargement de la mise à jour",
+			"twoupdates": "Plusieurs mises à jour ne pouvant pas être installées simultanément sont disponibles. Lorsque la mise à jour est terminée, recherchez à nouveau une mise à jour éventuelle pour être sûr d'être à niveau.",
+			"start": "Effectuer la mise à jour",
+			"title": "Mise à jour du micrologiciel disponible",
+			"uploading": "Téléversement de la mise à jour"
+		},
+		"firmwareupdating": {
+			"error": "%{type} est à nouveau connecté, mais n'a pas été mis à jour. Merci de réessayer de mettre à jour.",
+			"message": "%{type} est en cours de mise à jour. L'appareil sera à nouveau connecté dans quelques minutes.",
+			"ok": "Ok",
+			"title": "Mise à jour effectuée"
+		},
+		"notconnected": {
+			"continue": "Poursuivre la configuration",
+			"delete": "Effacer",
+			"description": "Cet appareil n'a pas encore été connecté au Cloud.",
+			"title": "Appareil non connecté"
+		},
+		"subscription": {
+			"message": "Pour effectuer des réglages sur votre CF Control 100, un abonnement est requis.\r\n\r\n### %{title}\r\n**%{price} pour %{month} mois**\r\nVous permet de modifier les valeurs de tous vos CF Control 100 et de les étalonner via l'application.",
+			"yes": "S'abonner"
+		},
+		"updating": {
+			"description": "Cet appareil a été mis à jour. Ce processus peut durer jusqu'à 10 minutes.",
+			"title": "Mise à jour de l'appareil en cours"
+		}
+	},
+	"notconnectedwriting": "Vos réglages n'ont pas été transmis, car votre appareil n'est pas connecté à notre Cloud. Merci de vérifier votre connexion à Internet.",
+	"okay": "Ok",
+	"pcd": {
+		"calibration": {
+			"DPD": "Valeur DPD",
+			"calReset": "RAZ Étalonnage",
+			"calibrate": "Etalonnage",
+			"calibrate4": "Etalonnage pH 4",
+			"calibrate7": "Etalonnage pH 7",
+			"calibrateDes": "Étalonnage désinfection",
+			"calibratePH": "Étalonnage\tpH",
+			"calibrated": "Étalonnage terminé",
+			"inputcurrent": "Couranté d'entrée",
+			"inputvoltage": "Tension d’entrée",
+			"messWert": "Valeur réelle",
+			"onepoint": "Étalonnage un point",
+			"photometer": "Valeur photomètre",
+			"sondenSteilheit": "Pente de la sonde",
+			"twopoint": "Étalonnage deux points",
+			"zeropint": "Point zéro"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Désinfection",
+				"desmanual": "Commande manuelle",
+				"deson": "Activé",
+				"filter": "Pompe de filtration",
+				"filtermanual": "Commande manuelle",
+				"filteron": "Activé",
+				"ph": "pH",
+				"phmanual": "Commande manuelle",
+				"phon": "Activé",
+				"title": "Accès rapide"
+			},
+			"faults": {
+				"dosierzeit_des": "Dépassement tps dosage désinfect.",
+				"dosierzeit_phlower": "Dépassement du temps de dosage abaissement du pH",
+				"dosierzeit_phraise": "Dépassement du temps de dosage augmentation du pH",
+				"title": "Défauts"
+			},
+			"messages": {
+				"dauerdosierung_des": "Dosage continu désinf. en cours",
+				"dauerdosierung_ph": "Dosage continu pH en cours",
+				"des_alarm_oben": "Désinfection au-dessus de la valeur d'alarme",
+				"des_alarm_unten": "Désinfection en dessous de la valeur d'alarme",
+				"des_leer": "Désinfection bidon vide",
+				"des_warn_oben": "Désinfection au-dessus de la valeur d'avertissement",
+				"des_warn_unten": "Désinfection en dessous de la valeur d'avertissement",
+				"dosierstop": "Arrêt dosage externe",
+				"einschaltverzögerung": "Temporisation de mise en marche",
+				"empty": "Aucun message pour l'instant.",
+				"nullpunkt": "Erreur de zéro",
+				"ph_alarm_oben": "pH au-dessus de la valeur d'alarme",
+				"ph_alarm_unten": "pH en dessous de la valeur d'alarme",
+				"ph_leer": "Bidon pH vide",
+				"ph_warn_oben": "pH au-dessus de la valeur d'avertissement",
+				"ph_warn_unten": "pH en dessous de la valeur d'avertissement",
+				"regelgrenze_ph_oben": "Dépasse seuil de régulation pH",
+				"regelgrenze_ph_unten": "Sous seuil de régulation pH",
+				"steilheit": "Erreur de pente",
+				"temperatur_alarm_oben": "Température de l'eau au-dessus de la valeur d'alarme",
+				"temperatur_alarm_unten": "Température de l'eau en dessous de la valeur d'alarme",
+				"temperatur_warn_oben": "Température de l'eau au-dessus de la valeur d'avertissement",
+				"temperatur_warn_unten": "Température de l'eau en dessous de la valeur d'avertissement",
+				"title": "Liste de messages",
+				"unterteil": "Pas de connexion à la partie inf.",
+				"wassermangel": "Manque d’eau de mesure"
+			}
+		},
+		"save": "Prendre en charge",
+		"saved": "Les modifications ont été transmises à votre PC Dynamics.",
+		"setpoints": {
+			"activated": "Activé",
+			"aer": {
+				"hours": "Heure",
+				"minutes": "Minute",
+				"startmanual": "Démarrer manuellement",
+				"timeperday": "Nombre par jour"
+			},
+			"deactivated": "Désactivé",
+			"desinfection": {
+				"alarmDelay": "Temporisation d’alarme",
+				"circulationTime": "Durée de recirculation",
+				"compensation": "Compensation",
+				"concentration": "Concentration",
+				"dosingTime": "Surveillance du temps de dosage",
+				"finedosing": "Dosage de précision",
+				"hysterese": "Hystérésis",
+				"lowerAlarm": "Seuil d’alarme inférieur",
+				"lowerWarn": "Seuil d’avertissement inférieur",
+				"manCompensation": "Compensation manuelle",
+				"manDosing": "Dosage continu manuel",
+				"options": {
+					"auto": "Auto",
+					"manual": "Manuel"
+				},
+				"pRange": "Bande P",
+				"poolsize": "Volume du bassin",
+				"pumppower": "Débit de pompe",
+				"resetTime": "Temps de correction ",
+				"setpoint": "Valeur de consigne",
+				"titles": {
+					"title1": "Valeurs de consigne",
+					"title2": "Régulation",
+					"title3": "Réglages de dosage",
+					"title4": "Compensation de température"
+				},
+				"upperAlarm": "Seuil d’alarme supérieur",
+				"upperWarn": "Seuil d’avertissement supérieur"
+			},
+			"filter": {
+				"friday": "Vendredi",
+				"monday": "Lundi",
+				"saturday": "Samedi",
+				"sunday": "Dimanche",
+				"thursday": "Jeudi",
+				"timermark1": "Drapeau de commutation 1",
+				"timermark2": "Drapeau de commutation 2",
+				"tuesday": "Mardi",
+				"wednesday": "Mercredi"
+			},
+			"temperature": {
+				"upperAlarm": "Seuil d’alarme supérieur",
+				"upperWarn": "Seuil d’avertissement supérieur",
+				"setpoint": "Valeur de consigne",
+				"lowerWarn": "Seuil d’avertissement inférieur",
+				"lowerAlarm": "Seuil d’alarme inférieur",
+				"correction": "Correction",
+				"alarmdelay": "Temporisation d’alarme"
+			},
+			"solar": {
+				"diff": "Température différentielle"
+			},
+			"off": "Arrêt",
+			"on": "Marche",
+			"ph": {
+				"alarmDelay": "Temporisation d’alarme",
+				"deathrange": "Zone morte",
+				"dosingTime": "Surveillance du temps de dosage",
+				"hysterese": "Hystérésis",
+				"lowerAlarm": "Seuil d’alarme inférieur",
+				"lowerWarn": "Seuil d’avertissement inférieur",
+				"manDosing": "Dosage continu manuel",
+				"pRange": "Bande P",
+				"resetTime": "Temps de correction ",
+				"setpoint": "Valeur de consigne",
+				"titles": {
+					"title1": "Valeurs de consigne",
+					"title2": "Régulation",
+					"title3": "Réglages de dosage"
+				},
+				"upperAlarm": "Seuil d’alarme supérieur",
+				"upperWarn": "Seuil d’avertissement supérieur"
+			},
+			"poolcare": {
+				"tDosZeit": "Temps de dosage quotidien",
+				"taglPumpLz": "Durée journalière de fonctionnement pompe"
+			},
+			"redox": {
+				"hystereseRedox": "Hystérésis",
+				"pBerRx": "Bande P",
+				"sollRx": "Valeur de consigne"
+			},
+			"samplewater": {
+				"compensation": "Compensation",
+				"flow": "Débit",
+				"flowrate": "Taux de débit",
+				"maxflow": "Débit maximal",
+				"minflow": "Débit mini"
+			},
+			"time": {
+				"day": "Jour",
+				"hours": "Heures",
+				"minutes": "Minutes",
+				"month": "Mois",
+				"year": "An"
+			},
+			"titles": {
+				"brom": "Brome",
+				"calibration": "Etalonnage",
+				"chlordioxid": "Dioxyde de chlore",
+				"datetime": "Date et heure",
+				"filter": "Temps de filtrage",
+				"flow": "Débit",
+				"freechlorine": "Chlore libre",
+				"organicchlorine": "Chlore organique",
+				"ozon": "Ozone",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare avec minuterie",
+				"redox": "redox",
+				"relais": "Relais",
+				"samplewater": "Eau de mesure",
+				"temperature": "Température",
+				"timer": "Minuterie",
+				"aer": "NAE",
+				"solar": "Solaire"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Monsieur",
+		"ms": "Madame"
+	},
+	"save": "Enregistrer",
+	"types": {
+		"CF100": "CF Control 100",
+		"PCD": "PC Dynamics"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Erreur de réinitialisation de votre mot de passe. Merci de vérifier votre connexion à Internet.",
+				"success": "Un courrier électronique a été envoyé à l'adresse indiquée avec un lien pour réinitialiser votre mot de passe.",
+				"title": "Mot de passe oublié",
+				"wrongemail": "Aucun compte avec cette adresse de courrier électronique n'a été trouvé."
+			},
+			"login": {
+				"email": "Adresse e-mail",
+				"error": "Aucun compte n'a été trouvé avec les données utilisateur indiquées.",
+				"forgotpassword": "Mot de passe oublié",
+				"noaccount": "Pas encore de compte ?",
+				"password": "Mot de passe",
+				"pleaselogin": "Pour continuer, merci de vous connecter",
+				"welcome": "Bienvenue,"
+			},
+			"register": {
+				"back": "Retour au login",
+				"emailerror": "Une erreur est survenue pendant la vérification de votre adresse de courrier électronique. Merci de vérifier votre connexion à Internet.",
+				"error": "Votre enregistrement n'a pas été terminé à cause d'un problème. Merci de vérifier votre connexion à Internet.",
+				"firstname": "Prénom",
+				"lastname": "Nom",
+				"passwordlength": "Votre mot de passe doit contenir au moins 8 caractères.",
+				"privacy": "J'accepte les conditions de confidentialité des données. Mon compte doit être supprimé pour la révocation.",
+				"privacylink": "Afficher les conditions de confidentialité des données",
+				"register": "Enregistrer",
+				"registration": "Enregistrement",
+				"repeatpassword": "Répéter le mot de passe",
+				"salutation": "Civilité"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Ville",
+				"country": "Pays",
+				"name": "Désignation",
+				"title": "Configurer l'appareil",
+				"namehint": "",
+				"typehint": "Merci de sélectionner le modèle de votre installation.",
+				"zip": "Code postal"
+			},
+			"passphrase": "Mot de passe",
+			"ssid": "SSID",
+			"step": "Étape %{step} :",
+			"wificredentials": {
+				"help1": "Votre %{type} doit être dans un réseau connecté à Internet pour pouvoir communiquer avec votre application. ",
+				"help2": "Merci de saisir ici les données d'accès du réseau WiFi 2,4 GHz que vous désirez utiliser. Ce réseau doit être compatible DHCP.",
+				"passphrasehint": "Votre WiFi privé doit être protégé par un mot de passe pour que votre appareil puisse communiquer sûrement avec.",
+				"title": "Configurer le WiFi"
+			},
+			"wifilist": {
+				"configured": "Appareil configuré",
+				"configuring": "Configuration ...",
+				"connected": "Connecté",
+				"connectingWithWebsocket": "Connexion au Cloud",
+				"connectionFailed": "Échec de la connexion",
+				"currentwifi": "WiFi actuel : %{ssid}",
+				"devicetimeout": "L'appareil n'a pas encore envoyé de données au cours de la dernière minute.",
+				"failed": "Échec de la configuration",
+				"finished": "Terminé",
+				"help1": "Merci d'aller dans les réglages du système et de rechercher le réseau WiFi de votre %{type}.",
+				"help2": "Le nom du réseau commence par",
+				"help3": "Dès que la connexion au réseau est établie, vous pouvez retourner dans l'application pour poursuivre l'installation.",
+				"permission": {
+					"message": "Votre confirmation est nécessaire pour pouvoir voir votre WiFi actuel",
+					"title": "Réseau WiFi"
+				},
+				"title": "Établissement de la connexion",
+				"trying": "Tentative de\r\nconnexion ...",
+				"waiting": "En attente ...",
+				"waitingForMessage": "En attente des premières données",
+				"websockettimeout": "Merci de vérifier que la connexion à Internet est opérationnelle pour poursuivre la configuration.",
+				"wrongtype": "Cet appareil n'est pas %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Modifier le mot de passe",
+				"currentpassword": "Mot de passe actuel",
+				"email": "Email",
+				"emailexists": "L'adresse email que vous avez saisie appartient déjà à un autre compte.",
+				"emailissue": "L'enregistrement de vos données a rencontré un problème. Merci de vérifier que vous êtes connecté à Internet et réessayer.",
+				"emaillong": "Adresse e-mail",
+				"firstname": "Prénom",
+				"language": "Langue",
+				"lastname": "Nom",
+				"logout": "Quitter",
+				"misc": "Divers",
+				"newpassword": "Nouveau mot de passe",
+				"password": "Mot de passe",
+				"passwordchanged": "Votre mot de passe a été modifié avec succès.",
+				"passwordissue": "La modification de votre mot de passe a rencontré un problème. Merci de vérifier que vous êtes connecté à Internet et réessayer.",
+				"passwordnotmatching": "Le mot de passe indiqué ne correspond pas au mot de passe sauvegardé dans votre compte.\r\n\r\nMerci de réessayer.",
+				"privacy": "Conditions d'utilisation et confidentialité des données",
+				"profile": "Profil",
+				"repeatnewpassword": "Répéter le nouveau mot de passe",
+				"salutation": "Civilité",
+				"subscription": "Abonnement",
+				"subscriptionend": "À partir du %{date}",
+				"subscriptioninactive": "Inactif",
+				"title": "Réglages"
+			},
+			"overview": {
+				"noinstallations": "Vous n'avez pour l'instant enregistré aucun appareil. Merci de cliquer sur le bouton ci-dessous pour ajouter un appareil.",
+				"yourinstallations": "vos installations sont ici."
+			}
+		}
+	}
+}

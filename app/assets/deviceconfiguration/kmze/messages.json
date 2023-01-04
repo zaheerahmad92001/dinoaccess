@@ -1,0 +1,135 @@
+{
+  "faults": [],
+  "messages": [
+    {
+      "register": 19,
+      "bit": 1,
+      "message": "kmze.overview.messages.0"
+    },
+    {
+      "register": 19,
+      "bit": 2,
+      "message": "kmze.overview.messages.1"
+    },
+    {
+      "register": 19,
+      "bit": 3,
+      "message": "kmze.overview.messages.2"
+    },
+    {
+      "register": 19,
+      "bit": 4,
+      "message": "kmze.overview.messages.3"
+    },
+    {
+      "register": 19,
+      "bit": 5,
+      "message": "kmze.overview.messages.4"
+    },
+    {
+      "register": 19,
+      "bit": 6,
+      "message": "kmze.overview.messages.5"
+    },
+    {
+      "register": 19,
+      "bit": 7,
+      "message": "kmze.overview.messages.6"
+    },
+    {
+      "register": 19,
+      "bit": 8,
+      "message": "kmze.overview.messages.7"
+    },
+    {
+      "register": 19,
+      "bit": 9,
+      "message": "kmze.overview.messages.8"
+    },
+    {
+      "register": 19,
+      "bit": 10,
+      "message": "kmze.overview.messages.9"
+    },
+    {
+      "register": 19,
+      "bit": 11,
+      "message": "kmze.overview.messages.10"
+    },
+    {
+      "register": 19,
+      "bit": 12,
+      "message": "kmze.overview.messages.11"
+    },
+    {
+      "register": 19,
+      "bit": 13,
+      "message": "kmze.overview.messages.12"
+    },
+    {
+      "register": 19,
+      "bit": 14,
+      "message": "kmze.overview.messages.13"
+    },
+    {
+      "register": 20,
+      "bit": 15,
+      "message": "kmze.overview.messages.14"
+    },
+    {
+      "register": 20,
+      "bit": 16,
+      "message": "kmze.overview.messages.15"
+    },
+    {
+      "register": 20,
+      "bit": 1,
+      "message": "kmze.overview.messages.16"
+    },
+    {
+      "register": 20,
+      "bit": 2,
+      "message": "kmze.overview.messages.17"
+    },
+    {
+      "register": 20,
+      "bit": 3,
+      "message": "kmze.overview.messages.18"
+    },
+    {
+      "register": 20,
+      "bit": 4,
+      "message": "kmze.overview.messages.19"
+    },
+    {
+      "register": 20,
+      "bit": 5,
+      "message": "kmze.overview.messages.20"
+    },
+    {
+      "register": 20,
+      "bit": 6,
+      "message": "kmze.overview.messages.21"
+    },
+    {
+      "register": 20,
+      "bit": 7,
+      "message": "kmze.overview.messages.22"
+    },
+    {
+      "register": 20,
+      "bit": 8,
+      "message": "kmze.overview.messages.23"
+    },
+    {
+      "register": 20,
+      "bit": 9,
+      "message": "kmze.overview.messages.24"
+    },
+    {
+      "register": 20,
+      "bit": 10,
+      "message": "kmze.overview.messages.25"
+    }
+  ]
+}

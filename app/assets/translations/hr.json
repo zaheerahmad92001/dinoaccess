@@ -1,0 +1,490 @@
+{
+	"back": "Natrag",
+	"cancel": "Odustani",
+	"search": "Traži",
+	"reset": "Vrati izvorno",
+	"settings": {
+		"stockist": "Specijalizirani trgovac",
+		"city": "Grad",
+		"code": "Kôd",
+		"zip": "Poštanski broj",
+		"country": "Država",
+		"delete": "Izbriši sustav",
+		"device": "Sustav",
+		"espfw": "Verzija WLAN-a",
+		"firmware": "Firmver",
+		"firmwareerror": "Došlo je do pogreške pri traženju ažuriranja. Provjerite svoju internetsku vezu.",
+		"firmwareupdate": "Traži ažuriranje",
+		"infos": "Informacije",
+		"interval": "Interval ažuriranja",
+		"intervals": {
+			"10": "10 sekundi",
+			"20": "20 sekundi",
+			"30": "30 sekundi",
+			"45": "45 sekundi",
+			"60": "1 minuta"
+		},
+		"ip": "Lokalna IP adresa",
+		"lastupdate": "Zadnje ažuriranje",
+		"name": "Zaslonski naziv",
+		"nofirmwareupdate": "Vaš je firmver ažuran",
+		"offline": "Ovaj je sustav trenutačno izvan mreže. Stoga trenutačno možete samo uređivati postavke, ali ne možete stupiti u interakciju sa sustavom.",
+		"position": "Lokacija",
+		"schema": "Shema boja",
+		"serial": "Serijski broj",
+		"signalstrength": "Jačina signala",
+		"ssid": "SSID",
+		"title": "Postavke",
+		"token": "Token",
+		"update": "Provjeri ima li ažuriranja",
+		"updates": {
+			"continue": "Instaliraj ažuriranje",
+			"noupdateavailable": "Nema dostupnih ažuriranja",
+			"updateavailable": "Za vaš uređaj dostupno je ažuriranje s verzijom ${version}. Ažuriranje može potrajati do 10 minuta i u tom razdoblju nećete moći upotrebljavati svoj uređaj.",
+			"updatefailed": "Ažuriranje se nije uspješno instaliralo. Pokušajte ponovno provesti postupak ažuriranja."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Kalibracija",
+			"calibrate4": "Kalibracija pH 4",
+			"calibrate7": "Kalibracija pH 7",
+			"calibrated": "Kalibracija je izvršena",
+			"messWertpH": "Stvarna pH-vrijednost",
+			"sondenSpannungPH": "Napon sonde",
+			"sondenSteilheitPH": "Strmost sonde"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Dezinfekcija",
+				"filter": "Filtarska pumpa",
+				"heating": "Grijanje",
+				"installation": "Automatski način",
+				"phlower": "pH snižavanje",
+				"phraise": "pH povećanje",
+				"title": "Brzi pristup"
+			},
+			"messages": {
+				"1": "Spremnik za dezinfekcijsko sredstvo je prazan",
+				"10": "Dnevna količina doziranja je prekoračena",
+				"11": "Pogreška strmosti",
+				"2": "pH spremnik je prazan",
+				"3": "Manjak vode za mjerenje",
+				"4": "Propuštanje",
+				"5": "Vrijeme doziranja dezinfekcije je prekoračeno",
+				"6": "Vrijeme doziranja pH snižavanja je prekoračeno",
+				"7": "Vrijeme doziranja pH povećanja je prekoračeno",
+				"8": "Smetnja mjerenja temperature 0",
+				"9": "Smetnja mjerenja temperature 1",
+				"empty": "Trenutačno ne postoje poruke.",
+				"title": "Popis poruka"
+			}
+		},
+		"save": "Preuzmi",
+		"saved": "Promjene su prenesene na vaš CF Control 100.",
+		"setpoints": {
+			"activated": "Aktivirano",
+			"deactivated": "Deaktivirano",
+			"off": "Isklj.",
+			"on": "Uklj.",
+			"ph": {
+				"hystPH": "Histereza",
+				"pBerPH": "P-područje",
+				"sollPH": "Zadana pH vrijednost"
+			},
+			"poolcare": {
+				"tDosZeit": "Dnevno vrijeme doziranja",
+				"taglPumpLz": "Dnevno vrijeme rada pumpe"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "P-područje",
+				"sollRx": "Zadana vrijednost"
+			},
+			"temperature": {
+				"solarTempDiff": "Razlika temperature Solarno",
+				"sollTemp": "Zadana vrijednost",
+				"tempKorrektur0": "Kalibracijski faktor",
+				"tempKorrektur1": "Kalibracijski faktor solarno"
+			},
+			"timer": {
+				"schaltFPst0": "Vrijeme filtriranja 1 (dnevno)",
+				"schaltFPst2": "Vrijeme filtriranja 2 (dnevno)"
+			},
+			"title": "Zadane vrijednosti",
+			"titles": {
+				"calibration": "Kalibracija",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "Redox",
+				"relais": "Relej",
+				"temperature": "Temperatura",
+				"timer": "Vremenski uklopni sat"
+			}
+		}
+	},
+	"continue": "Dalje",
+	"delete": "Izbriši",
+	"hello": "Pozdrav",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Odvrnite pH elektrodu i obrišite je čistom krpom.\r\n- pH elektrodu uronite u pufernu otopinu 7,0 i pričekajte dok se pH-vrijednost stabilizira.\r\n- Dodirnite „Kalibracija pH 7” i pričekajte dok pH-vrijednost ne dosegne otprilike pH 7,00.\r\n- pH elektrodu osušite papirnatim ručnikom od flisa.\r\n- pH elektrodu uronite u pufernu otopinu 4,0 i pričekajte dok se pH-vrijednost stabilizira.\r\n- Dodirnite „Kalibracija pH 4” i pričekajte dok pH-vrijednost ne dosegne otprilike pH 4,00.\r\n- Time je završen postupak kalibracije.",
+			"title": "Kalibracija pH elektrode"
+		},
+		"delete": {
+			"description1": "Unesite naziv svojeg sustava",
+			"description2": "kako biste potvrdili brisanje.",
+			"title": "Izbrisati sustav?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Izmjene",
+			"couldnotfind": "U vašoj mreži nije pronađen nijedan uređaj %{type}",
+			"description": "Najnovija dostupna verzija firmvera jest **%{version}**. Za nadogradnju provjerite nalazite li se u istoj mreži kao i uređaj %{type}.",
+			"done": "Ažuriranje je učitano na vaš uređaj %{type}. On će se sada ponovno pokrenuti i instalirati ažuriranje. Ovaj postupak može potrajati do 10 minuta.",
+			"downloading": "Ažuriranje se preuzima",
+			"error": "Došlo je do pogreške pri preuzimanju ažuriranja",
+			"twoupdates": "Dostupno je više ažuriranja koja se ne mogu istodobno instalirati. Nakon uspješno završenog ažuriranja ponovno potražite ažuriranja kako biste dovršili sva ostala.",
+			"start": "Nadogradnja",
+			"title": "Dostupno je ažuriranje firmvera",
+			"uploading": "Učitaj ažuriranje"
+		},
+		"firmwareupdating": {
+			"error": "Uređaj %{type} je ponovno na mreži, ali nije ažuriran. Pokušajte ponovno provesti ažuriranje.",
+			"message": "Uređaj %{type} upravo obrađuje ažuriranje. Može potrajati nekoliko minuta dok uređaj ne bude ponovno na mreži.",
+			"ok": "U redu",
+			"title": "Ažuriranje u tijeku"
+		},
+		"notconnected": {
+			"continue": "Nastavi konfiguraciju",
+			"delete": "Izbriši",
+			"description": "Ovaj se uređaj nije dosad povezao s oblakom.",
+			"title": "Uređaj nije povezan"
+		},
+		"subscription": {
+			"message": "Za namještanje postavki na uređaju CF Control 100 potrebna vam je pretplata.\r\n\r\n### %{title}\r\n**%{price} za %{month} mjeseca/i**\r\nOmogućuje vam postavljanje vrijednosti na svim vašim uređajima CF Control 100 i njihovu kalibraciju putem aplikacije.",
+			"yes": "Pretplati se"
+		},
+		"updating": {
+			"description": "Ovaj se uređaj trenutačno ažurira. Ovaj postupak može potrajati do 10 minuta.",
+			"title": "Ažuriranje uređaja u tijeku"
+		}
+	},
+	"notconnectedwriting": "Vaše postavke ne mogu se prenijeti jer vaš uređaj nije povezan s našim oblakom. Provjerite svoju internetsku vezu.",
+	"okay": "U redu",
+	"pcd": {
+		"calibration": {
+			"DPD": "Vrijednost DPD",
+			"calReset": "Poništavanje kalibriranja",
+			"calibrate": "Kalibracija",
+			"calibrate4": "Kalibracija pH 4",
+			"calibrate7": "Kalibracija pH 7",
+			"calibrateDes": "Kalibracija dezinfekcije",
+			"calibratePH": "Kalibracija pH",
+			"calibrated": "Kalibracija je izvršena",
+			"inputcurrent": "Ulazna struja",
+			"inputvoltage": "Ulazni napon",
+			"messWert": "Stvarna vrijednost",
+			"onepoint": "Kalibracija u jednoj točki",
+			"photometer": "Vrijednost fotometra",
+			"sondenSteilheit": "Strmost sonde",
+			"twopoint": "Kalibracija u dvije točke",
+			"zeropint": "Nulta točka"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Dezinfekcija",
+				"desmanual": "Ručno upravljanje",
+				"deson": "Uključeno",
+				"filter": "Filtarska pumpa",
+				"filtermanual": "Ručno upravljanje",
+				"filteron": "Uključeno",
+				"ph": "pH",
+				"phmanual": "Ručno upravljanje",
+				"phon": "Uključeno",
+				"title": "Brzi pristup"
+			},
+			"faults": {
+				"dosierzeit_des": "Vrijeme doziranja dezinfekcije je prekoračeno",
+				"dosierzeit_phlower": "Vrijeme doziranja pH snižavanja je prekoračeno",
+				"dosierzeit_phraise": "Vrijeme doziranja pH povećanja je prekoračeno",
+				"title": "Smetnje"
+			},
+			"messages": {
+				"dauerdosierung_des": "Stalno doziranje dezinfekcije radi",
+				"dauerdosierung_ph": "Stalno doziranje pH radi",
+				"des_alarm_oben": "Dezinfekcija iznad alarmne vrijednosti",
+				"des_alarm_unten": "Dezinfekcija ispod alarmne vrijednosti",
+				"des_leer": "Spremnik za dezinfekcijsko sredstvo je prazan",
+				"des_warn_oben": "Dezinfekcija iznad vrijednosti upozorenja",
+				"des_warn_unten": "Dezinfekcija ispod vrijednosti upozorenja",
+				"dosierstop": "Vanjsko zaustavljanje doziranja",
+				"einschaltverzögerung": "Odgoda uključivanja",
+				"empty": "Trenutačno ne postoje poruke.",
+				"nullpunkt": "Pogreška nulte točke",
+				"ph_alarm_oben": "pH-vrijednost iznad alarmne vrijednosti",
+				"ph_alarm_unten": "pH-vrijednost ispod alarmne vrijednosti",
+				"ph_leer": "pH spremnik je prazan",
+				"ph_warn_oben": "pH-vrijednost iznad vrijednosti upozorenja",
+				"ph_warn_unten": "pH-vrijednost ispod vrijednosti upozorenja",
+				"regelgrenze_ph_oben": "Regulacijska granica pH je prekoračena",
+				"regelgrenze_ph_unten": "Regulacijska granica pH ispod granične vrijednosti",
+				"steilheit": "Pogreška strmosti",
+				"temperatur_alarm_oben": "Temperatura vode iznad alarmne vrijednosti",
+				"temperatur_alarm_unten": "Temperatura vode ispod alarmne vrijednosti",
+				"temperatur_warn_oben": "Temperatura vode iznad vrijednosti upozorenja",
+				"temperatur_warn_unten": "Temperatura vode ispod vrijednosti upozorenja",
+				"title": "Popis poruka",
+				"unterteil": "Ne postoji veza s donjim dijelom",
+				"wassermangel": "Manjak vode za mjerenje"
+			}
+		},
+		"save": "Preuzmi",
+		"saved": "Promjene su prenesene na vaš PC Dynamics.",
+		"setpoints": {
+			"activated": "Aktivirano",
+			"aer": {
+				"hours": "Sat",
+				"minutes": "Minuta",
+				"startmanual": "Pokreni ručno",
+				"timeperday": "Količina po danu"
+			},
+			"deactivated": "Deaktivirano",
+			"desinfection": {
+				"alarmDelay": "Odgoda alarma",
+				"circulationTime": "Vrijeme cirkulacije",
+				"compensation": "Kompenzacija",
+				"concentration": "Koncentracija",
+				"dosingTime": "Nadzor vremena doziranja",
+				"finedosing": "Fino doziranje",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Donja alarmna vrijednost",
+				"lowerWarn": "Donja vrijednost upozorenja",
+				"manCompensation": "Ručna kompenzacija",
+				"manDosing": "Ručno stalno doziranje",
+				"options": {
+					"auto": "Automatski",
+					"manual": "Ručno"
+				},
+				"pRange": "P-područje",
+				"poolsize": "Zapremnina bazena",
+				"pumppower": "Kapacitet pumpe",
+				"resetTime": "Vrijeme reguliranja",
+				"setpoint": "Zadana vrijednost",
+				"titles": {
+					"title1": "Zadane vrijednosti",
+					"title2": "Reguliranje",
+					"title3": "Postavke doziranja",
+					"title4": "Temperaturna kompenzacija"
+				},
+				"upperAlarm": "Gornja alarmna vrijednost",
+				"upperWarn": "Gornja vrijednost upozorenja"
+			},
+			"filter": {
+				"friday": "Petak",
+				"monday": "Ponedjeljak",
+				"saturday": "Subota",
+				"sunday": "Nedjelja",
+				"thursday": "Četvrtak",
+				"timermark1": "Uklopna oznaka 1",
+				"timermark2": "Uklopna oznaka 2",
+				"tuesday": "Utorak",
+				"wednesday": "Srijeda"
+			},
+			"temperature": {
+				"upperAlarm": "Gornja alarmna vrijednost",
+				"upperWarn": "Gornja vrijednost upozorenja",
+				"setpoint": "Zadana vrijednost",
+				"lowerWarn": "Donja vrijednost upozorenja",
+				"lowerAlarm": "Donja alarmna vrijednost",
+				"correction": "Ispravak",
+				"alarmdelay": "Odgoda alarma"
+			},
+			"solar": {
+				"diff": "Razlika temperature"
+			},
+			"off": "Isklj.",
+			"on": "Uklj.",
+			"ph": {
+				"alarmDelay": "Odgoda alarma",
+				"deathrange": "Mrtvo područje",
+				"dosingTime": "Nadzor vremena doziranja",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Donja alarmna vrijednost",
+				"lowerWarn": "Donja vrijednost upozorenja",
+				"manDosing": "Ručno stalno doziranje",
+				"pRange": "P-područje",
+				"resetTime": "Vrijeme reguliranja",
+				"setpoint": "Zadana vrijednost",
+				"titles": {
+					"title1": "Zadane vrijednosti",
+					"title2": "Reguliranje",
+					"title3": "Postavke doziranja"
+				},
+				"upperAlarm": "Gornja alarmna vrijednost",
+				"upperWarn": "Gornja vrijednost upozorenja"
+			},
+			"poolcare": {
+				"tDosZeit": "Dnevno vrijeme doziranja",
+				"taglPumpLz": "Dnevno vrijeme rada pumpe"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "P-područje",
+				"sollRx": "Zadana vrijednost"
+			},
+			"samplewater": {
+				"compensation": "Kompenzacija",
+				"flow": "Protok",
+				"flowrate": "Stopa protoka",
+				"maxflow": "Maksimalni protok",
+				"minflow": "Minimalni protok"
+			},
+			"time": {
+				"day": "Dan",
+				"hours": "Sati",
+				"minutes": "Minute",
+				"month": "Mjesec",
+				"year": "Godina"
+			},
+			"titles": {
+				"brom": "Brom",
+				"calibration": "Kalibracija",
+				"chlordioxid": "Klorov dioksid",
+				"datetime": "Datum i vrijeme",
+				"filter": "Vremena filtriranja",
+				"flow": "Protok",
+				"freechlorine": "Slobodni klor",
+				"organicchlorine": "Organski klor",
+				"ozon": "Ozon",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare vremensko upravljanje",
+				"redox": "Redox",
+				"relais": "Relej",
+				"samplewater": "Voda za mjerenje",
+				"temperature": "Temperatura",
+				"timer": "Vremenski uklopni sat",
+				"aer": "AER",
+				"solar": "Solarno"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Gospodin",
+		"ms": "Gospođa"
+	},
+	"save": "Spremanje",
+	"types": {
+		"CF100": "CF Control 100",
+		"PCD": "PC Dynamics"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Došlo je do pogreške pri ponovnom postavljanju vaše lozinke. Provjerite svoju internetsku vezu.",
+				"success": "Poruka e-pošte s poveznicom za ponovno postavljanje vaše lozinke poslana je na navedenu adresu e-pošte.",
+				"title": "Zaboravljena lozinka",
+				"wrongemail": "Nije pronađen nijedan račun s ovom adresom e-pošte."
+			},
+			"login": {
+				"email": "Adresa e-pošte",
+				"error": "Nije pronađen nijedan račun s navedenim korisničkim podacima.",
+				"forgotpassword": "Zaboravljena lozinka",
+				"noaccount": "Još nemate račun?",
+				"password": "Lozinka",
+				"pleaselogin": "Za nastavak se prijavite",
+				"welcome": "Dobro došli,"
+			},
+			"register": {
+				"back": "Natrag na prijavu",
+				"emailerror": "Došlo je do pogreške pri provjeri adrese e-pošte. Provjerite svoju internetsku vezu.",
+				"error": "Došlo je do problema pri dovršetku registracije. Provjerite svoju internetsku vezu.",
+				"firstname": "Ime",
+				"lastname": "Prezime",
+				"passwordlength": "Vaša lozinka mora sadržavati najmanje 8 znakova.",
+				"privacy": "Prihvaćam uvjete zaštite podataka. Opoziv suglasnosti provodi se brisanjem mojeg računa.",
+				"privacylink": "Prikaži uvjete zaštite podataka",
+				"register": "Registriraj se",
+				"registration": "Registracija",
+				"repeatpassword": "Ponovno unesite lozinku",
+				"salutation": "Oslovljavanje"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Grad",
+				"country": "Država",
+				"name": "Oznaka",
+				"title": "Konfiguriranje uređaja",
+				"namehint": "",
+				"typehint": "Odaberite tip svojeg sustava.",
+				"zip": "Poštanski broj"
+			},
+			"passphrase": "Lozinka",
+			"ssid": "SSID",
+			"step": "%{step}. korak:",
+			"wificredentials": {
+				"help1": "Kako bi vaš uređaj %{type} mogao komunicirati s aplikacijom, mora biti u mreži spojenoj na internet. ",
+				"help2": "Ovdje unesite pristupne podatke za WLAN mrežu 2,4 GHz koju želite upotrebljavati. Mreža mora podržavati DHCP.",
+				"passphrasehint": "Vaša privatna WLAN mreža mora biti zaštićena lozinkom kako bi uređaj mogao s njom sigurno komunicirati.",
+				"title": "Konfiguriranje WLAN-a"
+			},
+			"wifilist": {
+				"configured": "Uređaj je konfiguriran",
+				"configuring": "Konfiguracija u tijeku ...",
+				"connected": "Povezano",
+				"connectingWithWebsocket": "Poveži s oblakom",
+				"connectionFailed": "Povezivanje nije uspjelo",
+				"currentwifi": "Trenutačni WLAN: %{ssid}",
+				"devicetimeout": "Uređaj još nije poslao podatke u posljednjoj minuti.",
+				"failed": "Konfiguracija nije uspjela",
+				"finished": "Završeno",
+				"help1": "Otvorite postavke sustava i potražite WLAN mrežu svojeg uređaja %{type}.",
+				"help2": "Naziv mreže počinje s",
+				"help3": "Čim se spojite na mrežu, možete se vratiti u aplikaciju kako biste nastavili postavljanje.",
+				"permission": {
+					"message": "Potrebna nam je vaša potvrda kako bismo mogli vidjeti vaš trenutačni WLAN",
+					"title": "WLAN mreža"
+				},
+				"title": "Uspostavljanje veze",
+				"trying": "Pokušaj povezivanja\r\nu tijeku ...",
+				"waiting": "Pričekajte ...",
+				"waitingForMessage": "Čekam prve podatke",
+				"websockettimeout": "Kako bi se konfiguracija mogla nastaviti, provjerite je li internetska veza ponovno uspostavljena.",
+				"wrongtype": "Ovaj uređaj nije %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Promijeni lozinku",
+				"currentpassword": "Trenutačna lozinka",
+				"email": "E-pošta",
+				"emailexists": "Adresa e-pošte koju ste naveli već pripada drugom računu.",
+				"emailissue": "Došlo je do problema pri spremanju vaših podataka. Provjerite imate li internetsku vezu pa pokušajte ponovno.",
+				"emaillong": "Adresa e-pošte",
+				"firstname": "Ime",
+				"language": "Jezik",
+				"lastname": "Prezime",
+				"logout": "Odjava",
+				"misc": "Ostalo",
+				"newpassword": "Nova lozinka",
+				"password": "Lozinka",
+				"passwordchanged": "Vaša je lozinka uspješno promijenjena.",
+				"passwordissue": "Došlo je do problema pri promjeni vaše lozinke. Provjerite imate li internetsku vezu pa pokušajte ponovno.",
+				"passwordnotmatching": "Unesena lozinka ne podudara se s lozinkom spremljenom na vašem računu.\r\n\r\nPokušajte ponovno.",
+				"privacy": "Zaštita podataka i uvjeti upotrebe",
+				"profile": "Profil",
+				"repeatnewpassword": "Ponovno unesite novu lozinku",
+				"salutation": "Oslovljavanje",
+				"subscription": "Pretplata",
+				"subscriptionend": "Istječe %{date}",
+				"subscriptioninactive": "Nije aktivno",
+				"title": "Postavke"
+			},
+			"overview": {
+				"noinstallations": "Još niste spremili nijedan uređaj. Za dodavanje uređaja kliknite na gumb u nastavku.",
+				"yourinstallations": "Ovdje su vaši sustavi."
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+  "anlagenTyp": {
+    "register": 0,
+    "label": "anlagenTyp",
+    "unit": "",
+    "default": 0
+  },
+  "code": {
+    "register": 1,
+    "label": "code",
+    "unit": "",
+    "default": 0,
+    "range": [
+      0,
+      999
+    ],
+    "comma": 0
+  },
+  "zellStrom": {
+    "register": 2,
+    "label": "zellStrom",
+    "unit": "%"
+  },
+  "zellSpann": {
+    "register": 3,
+    "label": "zellSpann",
+    "unit": "V",
+    "comma": 3,
+    "decimals": 1
+  },
+  "q1": {
+    "register": 4,
+    "label": "q1",
+    "unit": "l/h",
+    "comma": 1,
+    "decimals": 1
+  },
+  "q2": {
+    "register": 5,
+    "label": "q2",
+    "unit": "l/h",
+    "comma": 1,
+    "decimals": 1
+  },
+  "anpassSole": {
+    "register": 6,
+    "label": "anpassSole",
+    "unit": "%",
+    "default": 0,
+    "range": [
+      -50,
+      50
+    ],
+    "comma": 0
+  },
+  "q3": {
+    "register": 7,
+    "label": "q3",
+    "unit": "l/h",
+    "comma": 1,
+    "decimals": 1
+  },
+  "AnAus": {
+    "register": 8,
+    "label": "AnAus"
+  },
+  "manSoleFuell": {
+    "register": 9,
+    "label": "manSoleFuell",
+    "unit": "",
+    "default": 0,
+    "range": [
+      0,
+      1
+    ],
+    "comma": 0
+  },
+  "manAnlageFuell": {
+    "register": 10,
+    "label": "manAnlageFuell",
+    "unit": "",
+    "default": 0,
+    "range": [
+      0,
+      1
+    ],
+    "comma": 0
+  },
+  "manSoleEin": {
+    "register": 11,
+    "label": "manSoleEin",
+    "unit": "",
+    "default": 0,
+    "range": [
+      0,
+      1
+    ],
+    "comma": 0
+  },
+  "fuellProdukt": {
+    "register": 12,
+    "label": "fuellProdukt",
+    "unit": "cm",
+    "default": 10,
+    "range": [
+      0,
+      200
+    ],
+    "comma": 0
+  },
+  "istProdukttank": {
+    "register": 13,
+    "label": "istProdukttank",
+    "unit": "cm",
+    "default": 10,
+    "range": [
+      0,
+      200
+    ],
+    "comma": 0
+  },
+  "istReaktor": {
+    "register": 13,
+    "label": "istReaktor",
+    "unit": "cm",
+    "comma": 0
+  },
+  "levelEin": {
+    "register": 14,
+    "label": "levelEin",
+    "unit": "cm",
+    "default": 20,
+    "range": [
+      0,
+      200
+    ],
+    "comma": 0
+  },
+  "levelAus": {
+    "register": 15,
+    "label": "levelAus",
+    "unit": "cm",
+    "default": 80,
+    "range": [
+      0,
+      200
+    ],
+    "comma": 0
+  },
+  "levelReaktor": {
+    "register": 13,
+    "label": "levelReaktor",
+    "unit": "cm",
+    "default": 0,
+    "range": [
+      0,
+      300
+    ],
+    "comma": 0
+  },
+  "stellMSR": {
+    "register": 16,
+    "label": "stellMSR",
+    "unit": "%",
+    "comma": 0
+  },
+  "stellNaOH": {
+    "register": 17,
+    "label": "stellNaOH",
+    "unit": "%",
+    "comma": 0
+  },
+  "stellEntnahme": {
+    "register": 18,
+    "label": "stellEntnahme",
+    "unit": "%",
+    "comma": 0
+  },
+  "meldungen1": {
+    "register": 19
+  },
+  "meldungen2": {
+    "register": 20
+  }
+}

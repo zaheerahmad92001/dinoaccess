@@ -1,0 +1,36 @@
+name: Build Apps for Release
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  build-ios:
+    name: Build iOS
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.18
+      - name: Install dependencies
+        run: npm install
+      - name: Run "fastlane ios release"
+        uses: maierj/fastlane-action@v1.2.0
+        with:
+          lane: ios release
+        env:
+          APPLE_USERNAME: apple@padarom.io
+          GITHUB_USERNAME: padarom
+          APPLE_TEAM_ID: 93QL5RWAWL
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN_PADAROM }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD_PADAROM }}
+          FL_SETUP_CI_FORCE: true
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: iOS IPA
+          path: dinoaccess.ipa

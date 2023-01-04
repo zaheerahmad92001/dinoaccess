@@ -1,0 +1,490 @@
+{
+	"back": "Cofnij",
+	"cancel": "Przerwij",
+	"search": "Szukaj",
+	"reset": "Resetuj",
+	"settings": {
+		"stockist": "Sprzedawca",
+		"city": "Miasto",
+		"code": "Kod",
+		"zip": "Kod pocztowy",
+		"country": "Kraj",
+		"delete": "Usuń system",
+		"device": "System",
+		"espfw": "Wersja WLAN",
+		"firmware": "Oprogramowanie",
+		"firmwareerror": "Błąd przy wyszukiwaniu po aktualizacji. Sprawdź połączenie z Internetem.",
+		"firmwareupdate": "Szukaj aktualizacji",
+		"infos": "Informacje",
+		"interval": "Interwał aktualizacji",
+		"intervals": {
+			"10": "10 sekund",
+			"20": "20 sekund",
+			"30": "30 sekund",
+			"45": "45 sekund",
+			"60": "1 minuta"
+		},
+		"ip": "Lokalny adres IP",
+		"lastupdate": "Ostatnia aktualizacja",
+		"name": "Nazwa wskazywana",
+		"nofirmwareupdate": "Twoje oprogramowanie nie wymaga aktualizacji",
+		"offline": "Ten system jest teraz offline. Dlatego teraz możesz tylko wprowadzać Twoje ustawienia, ale interakcje z systemem są niemożliwe.",
+		"position": "Lokalizacja",
+		"schema": "Wybór kolorów",
+		"serial": "Numer seryjny",
+		"signalstrength": "Moc sygnału",
+		"ssid": "SSID",
+		"title": "Ustawienia",
+		"token": "Token",
+		"update": "Sprawdź dostępność aktualizacji",
+		"updates": {
+			"continue": "Zainstaluj aktualizację",
+			"noupdateavailable": "Brak aktualizacji",
+			"updateavailable": "Dostępna jest aktualizacja do wersji ${version} dla Twojego urządzenia. Aktualizacja może trwać do 10 minut. NIe używaj urządzenia w tym czasie.",
+			"updatefailed": "Aktualizacja nie została zainstalowana. Powtórz proces aktualizacji."
+		}
+	},
+	"cf100": {
+		"calibration": {
+			"calibrate": "Kalibracja",
+			"calibrate4": "Kalibracja pH 4 ",
+			"calibrate7": "Kalibracja pH 7 ",
+			"calibrated": "Kalibracja zakończona",
+			"messWertpH": "Rzeczywista wartość pH",
+			"sondenSpannungPH": "Napięcie sondy",
+			"sondenSteilheitPH": "Nachylenie charakterystyki sondy"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Dezynfekcja",
+				"filter": "Pompa filtrująca",
+				"heating": "Ogrzewanie",
+				"installation": "Automatyka",
+				"phlower": "Obniżanie pH",
+				"phraise": "Podnoszenie pH",
+				"title": "Szybki dostęp"
+			},
+			"messages": {
+				"1": "Kanister środka dezynfekcyjnego pusty",
+				"10": "Dzienna wartość dozowania przekroczona",
+				"11": "Błąd nachylenia charakterystyki",
+				"2": "Kanister pH pusty",
+				"3": "Brak wody pomiar.",
+				"4": "Przeciek",
+				"5": "Czas dozow. dezynf. przekroczony",
+				"6": "Czas dozow. obniż. pH przekrocz.",
+				"7": "Czas dozow. podnosz. pH przekrocz",
+				"8": "Błąd pomiaru temperatury 0",
+				"9": "Błąd pomiaru temperatury 1",
+				"empty": "Aktualnie brak komunikatów.",
+				"title": "Lista komunikatów"
+			}
+		},
+		"save": "Przejmij",
+		"saved": "Zmiany zostały przekazane do Twojego CF Control 100.",
+		"setpoints": {
+			"activated": "Aktywne",
+			"deactivated": "Nieaktywne",
+			"off": "Wył.",
+			"on": "włącz",
+			"ph": {
+				"hystPH": "Histereza",
+				"pBerPH": "Zakres P",
+				"sollPH": "Zadana wartość pH"
+			},
+			"poolcare": {
+				"tDosZeit": "Dzienny czas dozowania",
+				"taglPumpLz": "Dzienny czas pracy pompy"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "Zakres P",
+				"sollRx": "Wartość zadana"
+			},
+			"temperature": {
+				"solarTempDiff": "Różnica temperatur Solar",
+				"sollTemp": "Wartość zadana",
+				"tempKorrektur0": "Współczynnik kalibracji",
+				"tempKorrektur1": "Współczynnik kalibracji Solar"
+			},
+			"timer": {
+				"schaltFPst0": "Czas filtrowania 1 (codziennie)",
+				"schaltFPst2": "Czas filtrowania 2 (codziennie)"
+			},
+			"title": "Wartości zadane",
+			"titles": {
+				"calibration": "Kalibracja",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"redox": "Redox",
+				"relais": "Przekaźnik",
+				"temperature": "Temperatura",
+				"timer": "Timer"
+			}
+		}
+	},
+	"continue": "Dalej",
+	"delete": "Usuń",
+	"hello": "Hallo",
+	"modals": {
+		"calibrationinfo": {
+			"description": "- Wykręć elektrodę pH i osusz ją czystym ręcznikiem.\r\nZanurz elektrodę pH w roztworze buforowym 7,0 i zaczekaj do ustabilizowania się wskazania.\r\n- Przyciśnij Kalibracja pH 7 i zaczekaj do osiągnięcia wartości pH ok. 7,00.\r\nOsusz elektrodę pH ręcznikiem papierowym.\r\nZanurz elektrodę pH w roztworze buforowym 4,0 i zaczekaj do ustabilizowania się wskazania.\r\n- Przyciśnij Kalibracja pH 4 i zaczekaj do osiągnięcia wartości pH ok. 4,00.\r\n- Kalibracja została zakończona.",
+			"title": "Kalibracja elektrody pH"
+		},
+		"delete": {
+			"description1": "Wprowadź nazwę Twojego systemu,",
+			"description2": "aby potwierdzić usuwanie.",
+			"title": "Usunąć system?"
+		},
+		"firmwareupdateavailable": {
+			"changelog": "Zmiany",
+			"couldnotfind": "Nie znaleziono %{type} w Twojej sieci",
+			"description": "Najnowsza dostępna wersja oprogramowania to **%{version}**. Aby przeprowadzić aktualizację, musisz być w tej samej sieci, co Twój %{type}.",
+			"done": "Program aktualizacyjny został załadowany do Twojego %{type}. Teraz nastąpią: restart i aktualizacja. Ten proces może trwać do 10 minut.",
+			"downloading": "Program aktualizacyjny został załadowany.",
+			"error": "Błąd przy przy pobieraniu aktualizacji",
+			"twoupdates": "Dostępne są aktualizacje, które nie mogą być instalowane jednocześnie. Po pomyślnej aktualizacji wybierz następną aktualizację do zainstalowania.",
+			"start": "Przeprowadź aktualizację",
+			"title": "Aktualizacja oprogramowania jest dostępna",
+			"uploading": "Ładuję aktualizację"
+		},
+		"firmwareupdating": {
+			"error": "%{type} jest ponownie online, ale nie został zaktualizowany. Powtórz proces aktualizacji.",
+			"message": "%{type} przeprowadza aktualizację. Powrót urządzenia online może trwać kilka minut.",
+			"ok": "Okay",
+			"title": "Aktualizacja jest przeprowadzana"
+		},
+		"notconnected": {
+			"continue": "Kontynuuj konfigurację",
+			"delete": "Usuń",
+			"description": "To urządzenie jeszcze nie łączyło się z chmurą.",
+			"title": "Urządzenie nie jest połączone"
+		},
+		"subscription": {
+			"message": "Aby wprowadzać ustawienia w Twoim CF Control 100, musisz mieć abonament.\r\n\r\n### %{title}\r\n**%{price} za %{month} miesiąc(e)**\r\nPozwala na wprowadzanie ustawień w Twoim CF Control 100 i przeprowadzanie kalibracji za pomocą aplikacji.",
+			"yes": "Zamów abonament"
+		},
+		"updating": {
+			"description": "To urządzenie jest właśnie aktualizowane. Ten proces może trwać do 10 minut.",
+			"title": "Urządzenie jest aktualizowane"
+		}
+	},
+	"notconnectedwriting": "Ustawienia nie zostały przeniesione, ponieważ Twoje urządzenie nie jest połączone z naszą chmurą. Sprawdź połączenie z Internetem.",
+	"okay": "Okay",
+	"pcd": {
+		"calibration": {
+			"DPD": "Wartość DPD",
+			"calReset": "Reset kalibracji",
+			"calibrate": "Kalibracja",
+			"calibrate4": "Kalibracja pH 4 ",
+			"calibrate7": "Kalibracja pH 7 ",
+			"calibrateDes": "Kalibracja Dezynfekcja",
+			"calibratePH": "Kalibracja pH",
+			"calibrated": "Kalibracja zakończona",
+			"inputcurrent": "Prąd wejściowy",
+			"inputvoltage": "Napięcie wejściowe",
+			"messWert": "Wartość rzeczywista",
+			"onepoint": "Kalibracja jednopunktowa",
+			"photometer": "Wartość z fotometru",
+			"sondenSteilheit": "Nachylenie charakterystyki sondy",
+			"twopoint": "Kalibracja dwupunktowa",
+			"zeropint": "Punkt zerowy"
+		},
+		"overview": {
+			"buttons": {
+				"desinfection": "Dezynfekcja",
+				"desmanual": "Sterowanie ręczne",
+				"deson": "Włączone",
+				"filter": "Pompa filtrująca",
+				"filtermanual": "Sterowanie ręczne",
+				"filteron": "Włączone",
+				"ph": "pH",
+				"phmanual": "Sterowanie ręczne",
+				"phon": "Włączone",
+				"title": "Szybki dostęp"
+			},
+			"faults": {
+				"dosierzeit_des": "Czas dozow. dezynf. przekroczony",
+				"dosierzeit_phlower": "Czas dozowania środka obniżającego pH przekroczony",
+				"dosierzeit_phraise": "Czas dozowania środka obniżającego pH przekroczony",
+				"title": "Zakłócenia"
+			},
+			"messages": {
+				"dauerdosierung_des": "Działa dozowanie ciągłe środka dezynfekcyjnego",
+				"dauerdosierung_ph": "Działa dozowanie ciągłe środka do regulacji pH",
+				"des_alarm_oben": "Zawartość środka dezynfekcyjnego powyżej wartości alarmowej",
+				"des_alarm_unten": "Zawartość środka dezynfekcyjnego poniżej wartości alarmowej",
+				"des_leer": "Kanister środka dezynfekcyjnego pusty",
+				"des_warn_oben": "Zawartość środka dezynfekcyjnego powyżej wartości ostrzegawczej",
+				"des_warn_unten": "Zawartość środka dezynfekcyjnego poniżej wartości ostrzegawczej",
+				"dosierstop": "Zewnętrzne zatrzymanie dozowania",
+				"einschaltverzögerung": "Opóźnianie włączenia",
+				"empty": "Aktualnie brak komunikatów.",
+				"nullpunkt": "Błąd punktu zerowego",
+				"ph_alarm_oben": "Wartość pH wyższa od wart. alarmowej",
+				"ph_alarm_unten": "Wartość pH niższa od wart. alarmowej",
+				"ph_leer": "Kanister środka do regulacji pH pusty",
+				"ph_warn_oben": "Wartość pH wyższa od wartości ostrzegawczej",
+				"ph_warn_unten": "Wartość pH niższa od wartości ostrzegawczej",
+				"regelgrenze_ph_oben": "Górna granica regulacji wartości pH przekroczona",
+				"regelgrenze_ph_unten": "Dolna granica regulacji wartości pH przekroczona",
+				"steilheit": "Błąd nachylenia charakterystyki",
+				"temperatur_alarm_oben": "Temperatura wody wyższa od wartości alarmowej",
+				"temperatur_alarm_unten": "Temperatura wody niższa od wartości alarmowej",
+				"temperatur_warn_oben": "Temperatura wody wyższa od wartości ostrzegawczej",
+				"temperatur_warn_unten": "Temperatura wody niższa od wartości ostrzegawczej",
+				"title": "Lista komunikatów",
+				"unterteil": "Brak połączenia z płytką dolną",
+				"wassermangel": "Brak wody pomiar."
+			}
+		},
+		"save": "Przejmij",
+		"saved": "Zmiany zostały przekazane do Twojego PC Dynamics.",
+		"setpoints": {
+			"activated": "Aktywne",
+			"aer": {
+				"hours": "Godzina",
+				"minutes": "Minuta",
+				"startmanual": "Uruchom ręcznie",
+				"timeperday": "Dzienna liczba operacji"
+			},
+			"deactivated": "Nieaktywne",
+			"desinfection": {
+				"alarmDelay": "Opóźnienie alarmu",
+				"circulationTime": "Czas cyrkulacji",
+				"compensation": "Kompensacja",
+				"concentration": "Stężenie",
+				"dosingTime": "Kontrola czasu dozowania",
+				"finedosing": "Dozowanie dokładne",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Dolna wartość alarmowa",
+				"lowerWarn": "Dolna wartość ostrzegawcza",
+				"manCompensation": "Kompensacja ręczna",
+				"manDosing": "Dozowanie ciągłe ręczne",
+				"options": {
+					"auto": "Auto",
+					"manual": "Tryb ręczny"
+				},
+				"pRange": "Zakres P",
+				"poolsize": "Pojemność niecki",
+				"pumppower": "Wydajność pompy",
+				"resetTime": "Czas całkowania",
+				"setpoint": "Wartość zadana",
+				"titles": {
+					"title1": "Wartości zadane",
+					"title2": "Regulacja",
+					"title3": "Ustawienia dozowania",
+					"title4": "Kompensacja temperatury"
+				},
+				"upperAlarm": "Górna wartość alarmowa",
+				"upperWarn": "Górna wartość ostrzegawcza"
+			},
+			"filter": {
+				"friday": "Piątek",
+				"monday": "Poniedziałek",
+				"saturday": "Sobota",
+				"sunday": "Niedziela",
+				"thursday": "Czwartek",
+				"timermark1": "Nastawa timera 1",
+				"timermark2": "Nastawa timera 2",
+				"tuesday": "Wtorek",
+				"wednesday": "Środa"
+			},
+			"temperature": {
+				"upperAlarm": "Górna wartość alarmowa",
+				"upperWarn": "Górna wartość ostrzegawcza",
+				"setpoint": "Wartość zadana",
+				"lowerWarn": "Dolna wartość ostrzegawcza",
+				"lowerAlarm": "Dolna wartość alarmowa",
+				"correction": "Korekta",
+				"alarmdelay": "Opóźnienie alarmu"
+			},
+			"solar": {
+				"diff": "Różnica temperatur"
+			},
+			"off": "Wył.",
+			"on": "Wł.",
+			"ph": {
+				"alarmDelay": "Opóźnienie alarmu",
+				"deathrange": "Strefa nieczułości",
+				"dosingTime": "Kontrola czasu dozowania",
+				"hysterese": "Histereza",
+				"lowerAlarm": "Dolna wartość alarmowa",
+				"lowerWarn": "Dolna wartość ostrzegawcza",
+				"manDosing": "Dozowanie ciągłe ręczne",
+				"pRange": "Zakres P",
+				"resetTime": "Czas całkowania",
+				"setpoint": "Wartość zadana",
+				"titles": {
+					"title1": "Wartości zadane",
+					"title2": "Regulacja",
+					"title3": "Ustawienia dozowania"
+				},
+				"upperAlarm": "Górna wartość alarmowa",
+				"upperWarn": "Górna wartość ostrzegawcza"
+			},
+			"poolcare": {
+				"tDosZeit": "Dzienny czas dozowania",
+				"taglPumpLz": "Dzienny czas pracy pompy"
+			},
+			"redox": {
+				"hystereseRedox": "Histereza",
+				"pBerRx": "Zakres P",
+				"sollRx": "Wartość zadana"
+			},
+			"samplewater": {
+				"compensation": "Kompensacja",
+				"flow": "Przepływ",
+				"flowrate": "Wskaźnik przepływu",
+				"maxflow": "Przepływ maksymalny",
+				"minflow": "Przepływ minimalny"
+			},
+			"time": {
+				"day": "Dzień",
+				"hours": "Godziny",
+				"minutes": "Minuty",
+				"month": "Miesiąc",
+				"year": "Rok"
+			},
+			"titles": {
+				"brom": "brom",
+				"calibration": "Kalibracja",
+				"chlordioxid": "Dwutlenek chloru",
+				"datetime": "Data i czas",
+				"filter": "Czasy filtrowania",
+				"flow": "Przepływ",
+				"freechlorine": "Wolny chlor",
+				"organicchlorine": "Chlor organiczny",
+				"ozon": "Ozon",
+				"ph": "pH",
+				"poolcare": "Poolcare",
+				"poolcareTime": "Poolcare Sterowanie czasowe",
+				"redox": "Redox",
+				"relais": "Przekaźnik",
+				"samplewater": "Woda pomiarowa",
+				"temperature": "Temperatura",
+				"timer": "Timer",
+				"aer": "AER",
+				"solar": "Solar"
+			}
+		}
+	},
+	"salutation": {
+		"mr": "Pan",
+		"ms": "Pani"
+	},
+	"save": "Zapisz",
+	"types": {
+		"CF100": " CF Control 100",
+		"PCD": "PC Dynamics"
+	},
+	"views": {
+		"auth": {
+			"forgot": {
+				"generalerror": "Błąd przy resetowaniu Twojego hasła. Sprawdź połączenie z Internetem.",
+				"success": "Na podany adres wysłano mail z linkiem do zresetowania Twojego hasła.",
+				"title": "Nie pamiętam hasła",
+				"wrongemail": "Nie znaleziono konta z tym adresem mailowym."
+			},
+			"login": {
+				"email": "Adres mailowy",
+				"error": "Nie znaleziono konta z podanymi danymi użytkownika.",
+				"forgotpassword": "Nie pamiętam hasła",
+				"noaccount": "Nie masz jeszcze konta?",
+				"password": "Hasło",
+				"pleaselogin": "Zaloguj się, aby kontynuować",
+				"welcome": "Witamy"
+			},
+			"register": {
+				"back": "Powrót do logowania",
+				"emailerror": "Błąd przy sprawdzaniu adresu mailowego. Sprawdź połączenie z Internetem.",
+				"error": "Problem przy zakończeniu rejestracji. Sprawdź połączenie z Internetem.",
+				"firstname": "Imię",
+				"lastname": "Nazwisko",
+				"passwordlength": "Hasło musi składać się z co najmniej 8 znaków.",
+				"privacy": "Zgadzam się na warunki ochrony danych. Odwołanie następuje przez usunięcie mojego konta.",
+				"privacylink": "Wywołaj warunki ochrony danych.",
+				"register": "Zarejestruj",
+				"registration": "Rejestracja",
+				"repeatpassword": "Powtórz hasło",
+				"salutation": "Pan/Pani"
+			}
+		},
+		"configuration": {
+			"details": {
+				"city": "Miasto",
+				"country": "Kraj",
+				"name": "Opis",
+				"title": "Skonfiguruj urządzenie",
+				"namehint": "",
+				"typehint": "Wybierz typ Twojego systemu.",
+				"zip": "Kod pocztowy"
+			},
+			"passphrase": "Hasło",
+			"ssid": "SSID",
+			"step": "Krok %{step}:",
+			"wificredentials": {
+				"help1": "Aby Twój %{type} mógł komunikować się z Twoją aplikacją, musi on być w sieci połączonej z Internetem. ",
+				"help2": "Wprowadź tu dane dostępowe do sieci WLAN 2,4 GHz, której chcesz użyć do tego celu. Ta sieć musi być zgodna z DHCP.",
+				"passphrasehint": "Twoja prywatna sieć WLAN musi być chroniona hasłem, aby urządzenie mogło bezpiecznie komunikować się z nią.",
+				"title": "Skonfiguruj WLAN"
+			},
+			"wifilist": {
+				"configured": "Urządzenie skonfigurowane",
+				"configuring": "Konfiguruję ...",
+				"connected": "Połączone",
+				"connectingWithWebsocket": "Łączę z chmurą",
+				"connectionFailed": "Połączenie nie zostało nawiązane",
+				"currentwifi": "Aktualna sieć WLAN: %{ssid}",
+				"devicetimeout": "W ciągu ostatniej minuty urządzenie nie wysłało jeszcze żadnych danych.",
+				"failed": "Konfiguracja nie powiodła się",
+				"finished": "Koniec",
+				"help1": "Przejdź do Twoich ustawień systemowych i znajdź Twój typ %{type} sieci WLAN.",
+				"help2": "Nazwa sieci zaczyna się od",
+				"help3": "Po połączeniu się z siecią możesz wrócić do aplikacji i kontynuować konfigurowanie.",
+				"permission": {
+					"message": "Potrzebujemy Twojego potwierdzenia, aby móc widzieć Twoją aktualną sieć WLAN",
+					"title": "Sieć WLAN"
+				},
+				"title": "Nawiązywanie połączenia",
+				"trying": "Próbuję\r\npołaczyć ...",
+				"waiting": "Czeka ...",
+				"waitingForMessage": "Czekam na pierwsze dane",
+				"websockettimeout": "Nawiąż ponownie połączenie z Internetem, aby umożliwić kontynuowanie konfiguracji.",
+				"wrongtype": "To urządzenie nie jest %{type}"
+			}
+		},
+		"dashboard": {
+			"account": {
+				"changepassword": "Zmień hasło",
+				"currentpassword": "Aktualne hasło",
+				"email": "E-mail",
+				"emailexists": "Podany przez Ciebie adres mailowy należy już do innego konta.",
+				"emailissue": "Wystąpił problem przy zapisywaniu Twoich danych. Sprawdź połączenie z Internetem i spróbuj ponownie.",
+				"emaillong": "Adres mailowy",
+				"firstname": "Imię",
+				"language": "Język",
+				"lastname": "Nazwisko",
+				"logout": "Wyloguj się",
+				"misc": "Inne",
+				"newpassword": "Nowe hasło",
+				"password": "Hasło",
+				"passwordchanged": "Twoje hasło zostało zmienione.",
+				"passwordissue": "Wystąpił błąd przy zmienianiu Twojego hasła. Sprawdź połączenie z Internetem i spróbuj ponownie.",
+				"passwordnotmatching": "Podane hasło nie jest hasłem zapisanym na Twoim koncie.\r\n\r\nSpróbuj ponownie.",
+				"privacy": "Ochrona danych & Warunki użytkowania",
+				"profile": "Profil",
+				"repeatnewpassword": "Powtórz nowe hasło",
+				"salutation": "Pan/Pani",
+				"subscription": "Abonament",
+				"subscriptionend": "Kończy się w dniu %{date}",
+				"subscriptioninactive": "Nieaktywne",
+				"title": "Ustawienia"
+			},
+			"overview": {
+				"noinstallations": "Nie zarejestrowałeś jeszcze żadnego urządzenia. Kliknij przycisk poniżej, aby dołączyć urządzenie.",
+				"yourinstallations": "to są Państwa/Twoje systemy."
+			}
+		}
+	}
+}

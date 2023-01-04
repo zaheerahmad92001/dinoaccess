@@ -1,0 +1,100 @@
+fastlane_version '2.140.0'
+
+before_all do
+  setup_ci
+end
+
+APP_IDENTIFIER = 'de.dinotec.dinoaccess'
+BUILD_NUMBER = `git rev-list --count HEAD`.strip
+
+platform :ios do
+  xcode_project_path = './ios/dinoaccess.xcodeproj'
+
+  lane :setup_signing do
+    setup_travis
+    disable_automatic_code_signing path: "ios/dinoaccess.xcodeproj"
+
+    authorization = Base64.strict_encode64(
+      "#{ENV['GITHUB_USERNAME']}:#{ENV['GITHUB_ACCESS_TOKEN']}"
+    )
+
+    match type: 'appstore',
+          readonly: true,
+          git_basic_authorization: authorization,
+          team_id: ENV['APPLE_TEAM_ID'],
+          username: ENV['APPLE_USERNAME']
+  end
+
+  private_lane :build do |options|
+    setup_signing
+
+    if options[:release]
+      ref = ENV['GITHUB_REF']
+      puts "Using GITHUB_REF = \"#{ref}\" to determine the new version."
+
+      matched_ref = /(.+\/){2}v(.+)$/.match(ref)
+      UI.user_error! 'Could not decode GitHub ref name. Make sure to only ' \
+            'call the :release build lane if GITHUB_REF is set correctly.' \
+            unless matched_ref && matched_ref[2]
+
+      increment_version_number xcodeproj: xcode_project_path,
+                               version_number: matched_ref[2]
+    else
+      latest_release = ENV['LATEST_RELEASE_VERSION']
+      parts = latest_release.split('.')
+      major, minor, patch = parts.fill('0', parts.length..2).map(&:to_i)
+      patch += 1
+
+      puts "Last release version was #{latest_release}. Bumping patch to #{major}.#{minor}.#{patch}."
+
+      # Use the latest tag number and bump on a patch level so that we can
+      # still upload to TestFlight.
+      increment_version_number xcodeproj: xcode_project_path,
+                               version_number: "#{major}.#{minor}.#{patch}"
+    end
+
+    # We don't want to have to commit build number increases from within the CI,
+    # therefore we are using a predetermined build number (currently) based
+    # on the number of commits within the repository so that it's always
+    # incrementing.
+    increment_build_number xcodeproj: xcode_project_path,
+                           build_number: BUILD_NUMBER
+
+    xcargs = {
+      BUNDLE_IDENTIFIER: APP_IDENTIFIER,
+      PROVISIONING_PROFILE_SPECIFIER: "match AppStore #{APP_IDENTIFIER}",
+      DEVELOPMENT_TEAM: ENV['APPLE_TEAM_ID']
+    }
+
+    profiles = lane_context[SharedValues::MATCH_PROVISIONING_PROFILE_MAPPING]
+
+    gym project: xcode_project_path,
+        clean: true,
+        xcargs: xcargs,
+        scheme: 'dinoaccess',
+        export_options: {
+          provisioningProfiles: profiles
+        }
+  end
+
+  lane :beta do
+    build
+    pilot skip_submission: true,
+          skip_waiting_for_build_processing: true,
+          username: 'apple@padarom.io',
+          apple_id: '1474266309'
+  end
+
+  lane :release do
+    build release: true
+    pilot skip_submission: true,
+          skip_waiting_for_build_processing: true,
+          username: 'apple@padarom.io',
+          apple_id: '1474266309'
+  end
+end
+
+platform :android do
+
+end
+

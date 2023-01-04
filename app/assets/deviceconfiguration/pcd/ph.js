@@ -1,0 +1,118 @@
+// Diese Datei definiert die Unterseiten von "setpointsPage3"
+
+export default {
+    "pcd.setpoints.ph.titles.title1": {
+        "registers": [
+            {
+                "label": "pcd.setpoints.ph.upperAlarm",
+                "register": 54,
+                "unit": "pH",
+                "range": [0, 1200],
+                "comma": 2,
+                "type": "slider",
+            },
+            {
+                "label": "pcd.setpoints.ph.upperWarn",
+                "register": 55,
+                "unit": "pH",
+                "range": [0, 1200],
+                "comma": 2,
+                "type": "slider",
+            },
+            {
+                "label": "pcd.setpoints.ph.setpoint",
+                "register": 56,
+                "unit": "pH",
+                "range": [0, 1200],
+                "comma": 2,
+                "type": "slider",
+            },
+            {
+                "label": "pcd.setpoints.ph.lowerWarn",
+                "register": 57,
+                "unit": "pH",
+                "range": [0, 1200],
+                "comma": 2,
+                "type": "slider",
+            },
+            {
+                "label": "pcd.setpoints.ph.lowerAlarm",
+                "register": 58,
+                "unit": "pH",
+                "range": [0, 1200],
+                "comma": 2,
+                "type": "slider",
+            },
+            {
+                "label": "pcd.setpoints.ph.alarmDelay",
+                "register": 59,
+                "unit": "Min",
+                "range": [0, 15],
+                "comma": 0,
+                "type": "slider",
+            },
+        ],
+    },
+    "pcd.setpoints.ph.titles.title2": {
+        "registers": [
+            {
+                "label": "pcd.setpoints.ph.pRange",
+                "register": 60,
+                "unit": "pH",
+                "range": [0, 200],
+                "comma": 2,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+            {
+                "label": "pcd.setpoints.ph.hysterese",
+                "register": 61,
+                "unit": "pH",
+                "range": [0, 200],
+                "comma": 2,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+            {
+                "label": "pcd.setpoints.ph.resetTime",
+                "register": 62,
+                "unit": "s",
+                "range": [0, 600],
+                "comma": 0,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+            {
+                "label": "pcd.setpoints.ph.deathrange",
+                "register": 63,
+                "unit": "pH",
+                "range": [0, 100],
+                "comma": 2,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+        ],
+    },
+    "pcd.setpoints.ph.titles.title3": {
+        "registers": [
+            {
+                "label": "pcd.setpoints.ph.manDosing",
+                "register": 64,
+                "unit": "Min",
+                "range": [0, 500],
+                "comma": 0,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+            {
+                "label": "pcd.setpoints.ph.dosingTime",
+                "register": 65,
+                "unit": "Min",
+                "range": [0, 180],
+                "comma": 0,
+                "type": "slider",
+                "enabled": (registers, code) => code('B'),
+            },
+        ],
+    },
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "bit": 1,
+    "message": "cf100.overview.messages.1"
+  },
+  {
+    "bit": 2,
+    "message": "cf100.overview.messages.2"
+  },
+  {
+    "bit": 3,
+    "message": "cf100.overview.messages.3"
+  },
+  {
+    "bit": 4,
+    "message": "cf100.overview.messages.4"
+  },
+  {
+    "bit": 5,
+    "message": "cf100.overview.messages.5"
+  },
+  {
+    "bit": 6,
+    "message": "cf100.overview.messages.6"
+  },
+  {
+    "bit": 7,
+    "message": "cf100.overview.messages.7"
+  },
+  {
+    "bit": 8,
+    "message": "cf100.overview.messages.8"
+  },
+  {
+    "bit": 9,
+    "message": "cf100.overview.messages.9"
+  },
+  {
+    "bit": 10,
+    "message": "cf100.overview.messages.10"
+  },
+  {
+    "bit": 11,
+    "message": "cf100.overview.messages.11"
+  }
+]
